@@ -1,6 +1,6 @@
 {
   "site": {
-    "default_lang": "ru"
+    "default_lang": "it"
   },
   "business": {
     "brand": "Ivanov Finestre",
@@ -46,7 +46,7 @@
     "accent": "#F2B33D",
     "ink": "#1D2A33",
     "surface": "#EEF3F7",
-    "font": "manrope",
+    "font": "montserrat",
     "corners": "soft",
     "hero_layout": "frame",
     "hero_media": "slideshow",
