@@ -8,9 +8,9 @@
 
 ## Как это устроено
 
-- **Сайт статический.** Это готовые HTML-страницы без сервера и базы данных, поэтому взламывать нечего. Хостинг GitHub Pages бесплатный.
+- **Сайт статический.** Это готовые HTML-страницы без сервера и базы данных, поэтому взламывать нечего. Хостинг Cloudflare Pages бесплатный.
 - **Скорость.** Сайт не тянет фреймворков: CSS встроен в страницу, скрипт весит около 4 КБ, шрифты хранятся на самом сайте. Фото отдаются в формате WebP в нескольких размерах. Карта и видео загружаются только по клику.
-- **Админка** работает на [Sveltia CMS](https://sveltiacms.app). Каждое изменение сохраняется коммитом в этот репозиторий, после чего GitHub Actions за 1–2 минуты пересобирает и публикует сайт. Вся история правок хранится, и любую можно откатить.
+- **Админка** работает на [Sveltia CMS](https://sveltiacms.app). Каждое изменение сохраняется коммитом в этот репозиторий, после чего Cloudflare за 1–2 минуты пересобирает и публикует сайт. Вся история правок хранится, и любую можно откатить.
 - **Защита админки.** Войти может только тот, у кого есть доступ на запись к этому репозиторию на GitHub. Сама страница `/admin/` без входа ничего не умеет. Включите двухфакторную аутентификацию на GitHub.
 
 ## Что можно менять в админке
@@ -30,7 +30,7 @@
 
 ## Первый вход в админку
 
-1. Откройте `https://<ваш-логин>.github.io/okna/admin/`.
+1. Откройте `https://<ваш-адрес>.pages.dev/admin/`.
 2. Нажмите **Sign In Using Access Token**.
 3. Создайте токен: GitHub → Settings → Developer settings → Personal access tokens → **Fine-grained tokens** → Generate new token.
    - Repository access: *Only select repositories* → `okna`
@@ -39,11 +39,20 @@
 
 Чтобы входить кнопкой «Sign in with GitHub» без токена, можно поднять бесплатный [sveltia-cms-auth](https://github.com/sveltia/sveltia-cms-auth) на Cloudflare Workers и прописать `base_url` в `admin/config.yml`.
 
-## Публикация (один раз)
+## Публикация на Cloudflare Pages (один раз)
 
-Репозиторий → Settings → Pages → Source: **GitHub Actions**. После этого каждый push в `main` и каждое сохранение в админке публикуют сайт.
+1. dash.cloudflare.com → **Workers & Pages** → Create → вкладка **Pages** → **Connect to Git** → репозиторий `spevyakin-web/okna`.
+2. Настройки сборки:
+   - Framework preset: **None**
+   - Build command: `npm run build`
+   - Build output directory: `dist`
+3. **Save and Deploy**.
 
-Свой домен: Settings → Pages → Custom domain, затем в админке «Настройки → SEO → Адрес сайта».
+После этого каждый push в `main` и каждое сохранение в админке публикуют сайт за 1–2 минуты. Сайт будет по адресу `https://okna-xxx.pages.dev`.
+
+Заголовки безопасности и кэширования задаются в `public/_headers`. Версия Node указана в `.node-version`.
+
+Свой домен: в проекте Cloudflare Pages → Custom domains, затем в админке «Настройки → SEO → Адрес сайта».
 
 ## Заявки на e-mail
 
