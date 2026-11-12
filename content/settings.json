@@ -1,0 +1,66 @@
+{
+  "business": {
+    "brand": "Ivanov Finestre",
+    "owner": "Ivan Ivanovich Ivanov",
+    "logo": "",
+    "phone": "+39 000 000 0000",
+    "whatsapp": "390000000000",
+    "telegram": "username",
+    "email": "info@example.com",
+    "address": "Via Roma 1, 20121 Milano (MI)",
+    "map_query": "Via Roma 1, Milano",
+    "vat": "P.IVA 00000000000"
+  },
+  "socials": [
+    { "network": "instagram", "url": "https://instagram.com/username" },
+    { "network": "facebook", "url": "https://facebook.com/username" },
+    { "network": "telegram", "url": "https://t.me/username" },
+    { "network": "whatsapp", "url": "https://wa.me/390000000000" },
+    { "network": "tiktok", "url": "https://tiktok.com/@username" },
+    { "network": "youtube", "url": "https://youtube.com/@username" }
+  ],
+  "theme": {
+    "mode": "light",
+    "primary": "#1F5F8B",
+    "accent": "#F2B33D",
+    "ink": "#1D2A33",
+    "surface": "#EEF3F7",
+    "font": "manrope",
+    "corners": "soft",
+    "hero_layout": "frame",
+    "hero_media": "slideshow",
+    "hero_images": [
+      { "image": "https://images.unsplash.com/photo-1600776216872-b39b2a3dd995" },
+      { "image": "https://images.unsplash.com/photo-1764837599929-100bd5890c57" },
+      { "image": "https://images.unsplash.com/photo-1758998256408-ab2c9fbec19b" }
+    ],
+    "hero_video": "",
+    "overlay": 45
+  },
+  "sections": [
+    { "id": "services", "enabled": true },
+    { "id": "technology", "enabled": true },
+    { "id": "products", "enabled": true },
+    { "id": "purchase", "enabled": true },
+    { "id": "process", "enabled": true },
+    { "id": "install", "enabled": true },
+    { "id": "repair", "enabled": true },
+    { "id": "gallery", "enabled": true },
+    { "id": "video", "enabled": false },
+    { "id": "reviews", "enabled": true },
+    { "id": "faq", "enabled": true },
+    { "id": "contacts", "enabled": true }
+  ],
+  "video": {
+    "url": "",
+    "poster": "https://images.unsplash.com/photo-1786204697642-328c597b6f05"
+  },
+  "form": {
+    "web3forms_key": "",
+    "whatsapp_fallback": true
+  },
+  "seo": {
+    "site_url": "",
+    "og_image": "https://images.unsplash.com/photo-1600776216872-b39b2a3dd995"
+  }
+}

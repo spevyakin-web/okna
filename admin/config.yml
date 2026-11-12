@@ -1,0 +1,470 @@
+# Админка сайта (Sveltia CMS). Значения __REPO__ / __BRANCH__ / __SITE__ подставляет сборка.
+backend:
+  name: github
+  repo: __REPO__
+  branch: __BRANCH__
+  commit_messages:
+    update: "Админка: изменён {{collection}} / {{slug}}"
+    uploadMedia: "Админка: загружен файл {{path}}"
+    deleteMedia: "Админка: удалён файл {{path}}"
+
+site_url: __SITE__
+display_url: __SITE__
+locale: ru
+
+media_folder: public/uploads
+public_folder: /uploads
+
+i18n:
+  structure: single_file
+  locales: [it, en, uk, ru, ro]
+  default_locale: it
+
+collections:
+  # ------------------------------------------------------------ ТЕКСТЫ (5 языков)
+  - name: pages
+    label: "Тексты сайта"
+    description: "Все тексты на 5 языках: it — итальянский (главный), en, uk, ru, ro — молдавский. Переключайте язык вверху редактора."
+    i18n: true
+    editor: { preview: false }
+    files:
+      - name: home
+        label: "Главная страница"
+        file: content/home.json
+        format: json
+        i18n: true
+        fields:
+          - label: "SEO (заголовок вкладки и описание в Google)"
+            name: meta
+            widget: object
+            collapsed: true
+            i18n: true
+            fields:
+              - { label: "Заголовок страницы", name: title, widget: string, i18n: true }
+              - { label: "Описание", name: description, widget: text, i18n: true }
+
+          - label: "Меню и кнопки"
+            name: nav
+            widget: object
+            collapsed: true
+            i18n: true
+            fields:
+              - { label: "Услуги", name: services, widget: string, i18n: true }
+              - { label: "Технология", name: technology, widget: string, i18n: true }
+              - { label: "Цены", name: products, widget: string, i18n: true }
+              - { label: "Монтаж", name: install, widget: string, i18n: true }
+              - { label: "Ремонт", name: repair, widget: string, i18n: true }
+              - { label: "Работы", name: gallery, widget: string, i18n: true }
+              - { label: "Отзывы", name: reviews, widget: string, i18n: true }
+              - { label: "Вопросы", name: faq, widget: string, i18n: true }
+              - { label: "Контакты", name: contacts, widget: string, i18n: true }
+              - { label: "Кнопка «Позвонить»", name: call, widget: string, i18n: true }
+              - { label: "Слово «Меню»", name: menu, widget: string, i18n: true }
+              - { label: "Слово «Язык»", name: language, widget: string, i18n: true }
+
+          - label: "Первый экран"
+            name: hero
+            widget: object
+            collapsed: true
+            i18n: true
+            fields:
+              - { label: "Главный заголовок", name: title, widget: string, i18n: true }
+              - { label: "Подзаголовок", name: subtitle, widget: text, i18n: true }
+              - { label: "Главная кнопка", name: cta_primary, widget: string, i18n: true }
+              - { label: "Кнопка WhatsApp", name: cta_secondary, widget: string, i18n: true }
+              - label: "Преимущества (галочки)"
+                name: points
+                widget: list
+                i18n: true
+                fields: [{ label: "Текст", name: text, widget: string, i18n: true }]
+              - { label: "Подпись ширины окна", name: frame_width, widget: string, i18n: true, required: false }
+              - { label: "Подпись высоты окна", name: frame_height, widget: string, i18n: true, required: false }
+
+          - label: "Цифры (полоса под первым экраном)"
+            name: stats
+            widget: list
+            i18n: true
+            collapsed: true
+            summary: "{{value}} — {{label}}"
+            fields:
+              - { label: "Число", name: value, widget: string, i18n: true }
+              - { label: "Подпись", name: label, widget: string, i18n: true }
+
+          - label: "Услуги"
+            name: services
+            widget: object
+            collapsed: true
+            i18n: true
+            fields:
+              - { label: "Заголовок", name: title, widget: string, i18n: true }
+              - { label: "Вступление", name: intro, widget: text, i18n: true }
+              - label: "Карточки услуг"
+                name: items
+                widget: list
+                i18n: true
+                summary: "{{title}}"
+                fields:
+                  - &icon { label: "Иконка", name: icon, widget: select, i18n: duplicate, options: [window, tools, wrench, door, balcony, net, sill, blinds, box, key, card, shield, thermo, sound] }
+                  - { label: "Название", name: title, widget: string, i18n: true }
+                  - { label: "Описание", name: text, widget: text, i18n: true }
+                  - { label: "Фото", name: image, widget: image, i18n: duplicate, required: false }
+
+          - label: "Технология (схема профиля)"
+            name: technology
+            widget: object
+            collapsed: true
+            i18n: true
+            fields:
+              - { label: "Заголовок", name: title, widget: string, i18n: true }
+              - { label: "Вступление", name: intro, widget: text, i18n: true }
+              - label: "Элементы схемы (ровно 6 — по номерам на рисунке)"
+                name: parts
+                widget: list
+                i18n: true
+                min: 6
+                max: 6
+                summary: "{{title}}"
+                fields:
+                  - { label: "Название", name: title, widget: string, i18n: true }
+                  - { label: "Пояснение", name: text, widget: text, i18n: true }
+              - { label: "Заголовок таблицы стеклопакетов", name: glazing_title, widget: string, i18n: true }
+              - label: "Шапка таблицы"
+                name: glazing_head
+                widget: object
+                i18n: true
+                fields:
+                  - { label: "Колонка 1", name: name, widget: string, i18n: true }
+                  - { label: "Колонка 2", name: uw, widget: string, i18n: true }
+                  - { label: "Колонка 3", name: sound, widget: string, i18n: true }
+                  - { label: "Колонка 4", name: use, widget: string, i18n: true }
+              - label: "Строки таблицы"
+                name: glazing
+                widget: list
+                i18n: true
+                summary: "{{name}}"
+                fields:
+                  - { label: "Стеклопакет", name: name, widget: string, i18n: true }
+                  - { label: "Теплоизоляция", name: uw, widget: string, i18n: true }
+                  - { label: "Шумоизоляция", name: sound, widget: string, i18n: true }
+                  - { label: "Для чего", name: use, widget: string, i18n: true }
+
+          - label: "Цены / линейки окон"
+            name: products
+            widget: object
+            collapsed: true
+            i18n: true
+            fields:
+              - { label: "Заголовок", name: title, widget: string, i18n: true }
+              - { label: "Примечание под ценами", name: intro, widget: text, i18n: true }
+              - { label: "Плашка «популярное»", name: badge, widget: string, i18n: true }
+              - { label: "Текст кнопки", name: cta, widget: string, i18n: true }
+              - label: "Линейки"
+                name: items
+                widget: list
+                i18n: true
+                summary: "{{name}} — {{price}}"
+                fields:
+                  - { label: "Название", name: name, widget: string, i18n: true }
+                  - { label: "Цена", name: price, widget: string, i18n: true }
+                  - { label: "Выделить как популярную", name: featured, widget: boolean, i18n: duplicate, required: false }
+                  - label: "Характеристики"
+                    name: features
+                    widget: list
+                    i18n: true
+                    fields: [{ label: "Текст", name: text, widget: string, i18n: true }]
+
+          - label: "Варианты покупки"
+            name: purchase
+            widget: object
+            collapsed: true
+            i18n: true
+            fields:
+              - { label: "Заголовок", name: title, widget: string, i18n: true }
+              - label: "Варианты"
+                name: items
+                widget: list
+                i18n: true
+                summary: "{{title}}"
+                fields:
+                  - *icon
+                  - { label: "Название", name: title, widget: string, i18n: true }
+                  - { label: "Описание", name: text, widget: text, i18n: true }
+
+          - label: "Этапы работы"
+            name: process
+            widget: object
+            collapsed: true
+            i18n: true
+            fields:
+              - { label: "Заголовок", name: title, widget: string, i18n: true }
+              - label: "Этапы (по порядку)"
+                name: steps
+                widget: list
+                i18n: true
+                summary: "{{title}}"
+                fields:
+                  - { label: "Название", name: title, widget: string, i18n: true }
+                  - { label: "Описание", name: text, widget: text, i18n: true }
+
+          - label: "Монтаж"
+            name: install
+            widget: object
+            collapsed: true
+            i18n: true
+            fields:
+              - { label: "Заголовок", name: title, widget: string, i18n: true }
+              - { label: "Текст", name: text, widget: text, i18n: true }
+              - { label: "Фото", name: image, widget: image, i18n: duplicate, required: false }
+              - label: "Пункты"
+                name: points
+                widget: list
+                i18n: true
+                fields: [{ label: "Текст", name: text, widget: string, i18n: true }]
+
+          - label: "Диагностика и ремонт"
+            name: repair
+            widget: object
+            collapsed: true
+            i18n: true
+            fields:
+              - { label: "Заголовок", name: title, widget: string, i18n: true }
+              - { label: "Вступление", name: intro, widget: text, i18n: true }
+              - { label: "Фото", name: image, widget: image, i18n: duplicate, required: false }
+              - { label: "Заголовок списка признаков", name: symptoms_title, widget: string, i18n: true }
+              - label: "Признаки поломки"
+                name: symptoms
+                widget: list
+                i18n: true
+                fields: [{ label: "Текст", name: text, widget: string, i18n: true }]
+              - { label: "Заголовок прайса", name: prices_title, widget: string, i18n: true }
+              - label: "Прайс на ремонт"
+                name: prices
+                widget: list
+                i18n: true
+                summary: "{{name}} — {{price}}"
+                fields:
+                  - { label: "Услуга", name: name, widget: string, i18n: true }
+                  - { label: "Цена", name: price, widget: string, i18n: true }
+
+          - label: "Галерея работ"
+            name: gallery
+            widget: object
+            collapsed: true
+            i18n: true
+            fields:
+              - { label: "Заголовок", name: title, widget: string, i18n: true }
+              - label: "Фото (первое будет крупным)"
+                name: items
+                widget: list
+                i18n: true
+                summary: "{{caption}}"
+                fields:
+                  - { label: "Фото", name: image, widget: image, i18n: duplicate }
+                  - { label: "Подпись", name: caption, widget: string, i18n: true, required: false }
+
+          - label: "Видео-блок (тексты)"
+            name: video
+            widget: object
+            collapsed: true
+            i18n: true
+            fields:
+              - { label: "Заголовок", name: title, widget: string, i18n: true }
+              - { label: "Текст", name: text, widget: string, i18n: true }
+              - { label: "Подпись кнопки", name: play, widget: string, i18n: true }
+
+          - label: "Отзывы"
+            name: reviews
+            widget: object
+            collapsed: true
+            i18n: true
+            fields:
+              - { label: "Заголовок", name: title, widget: string, i18n: true }
+              - label: "Отзывы"
+                name: items
+                widget: list
+                i18n: true
+                summary: "{{name}}"
+                fields:
+                  - { label: "Имя", name: name, widget: string, i18n: true }
+                  - { label: "Город / район", name: place, widget: string, i18n: true }
+                  - { label: "Оценка (1–5)", name: rating, widget: number, value_type: int, min: 1, max: 5, default: 5, i18n: duplicate }
+                  - { label: "Текст", name: text, widget: text, i18n: true }
+
+          - label: "Вопросы и ответы"
+            name: faq
+            widget: object
+            collapsed: true
+            i18n: true
+            fields:
+              - { label: "Заголовок", name: title, widget: string, i18n: true }
+              - label: "Вопросы"
+                name: items
+                widget: list
+                i18n: true
+                summary: "{{q}}"
+                fields:
+                  - { label: "Вопрос", name: q, widget: string, i18n: true }
+                  - { label: "Ответ", name: a, widget: text, i18n: true }
+
+          - label: "Контакты и форма"
+            name: contacts
+            widget: object
+            collapsed: true
+            i18n: true
+            fields:
+              - { label: "Заголовок", name: title, widget: string, i18n: true }
+              - { label: "Текст", name: text, widget: text, i18n: true }
+              - { label: "Подпись «Часы работы»", name: hours_label, widget: string, i18n: true }
+              - { label: "Часы работы", name: hours, widget: string, i18n: true }
+              - { label: "Подпись адреса", name: address_label, widget: string, i18n: true }
+              - { label: "Подпись соцсетей", name: follow, widget: string, i18n: true }
+              - { label: "Кнопка карты", name: map_button, widget: string, i18n: true }
+              - { label: "Пояснение под картой", name: map_note, widget: string, i18n: true }
+              - label: "Форма заявки"
+                name: form
+                widget: object
+                i18n: true
+                fields:
+                  - { label: "Заголовок формы", name: title, widget: string, i18n: true }
+                  - { label: "Поле «Имя»", name: name, widget: string, i18n: true }
+                  - { label: "Поле «Телефон»", name: phone, widget: string, i18n: true }
+                  - { label: "Поле «Что нужно»", name: service, widget: string, i18n: true }
+                  - label: "Варианты в списке «Что нужно»"
+                    name: services
+                    widget: list
+                    i18n: true
+                    fields: [{ label: "Текст", name: text, widget: string, i18n: true }]
+                  - { label: "Поле «Сообщение»", name: message, widget: string, i18n: true }
+                  - { label: "Кнопка отправки", name: submit, widget: string, i18n: true }
+                  - { label: "Текст во время отправки", name: sending, widget: string, i18n: true }
+                  - { label: "Сообщение об успехе", name: success, widget: string, i18n: true }
+                  - { label: "Сообщение об ошибке", name: error, widget: string, i18n: true }
+                  - { label: "Текст о данных", name: privacy, widget: string, i18n: true }
+
+          - label: "Подвал"
+            name: footer
+            widget: object
+            collapsed: true
+            i18n: true
+            fields:
+              - { label: "Текст", name: text, widget: string, i18n: true }
+              - { label: "«Все права защищены»", name: rights, widget: string, i18n: true }
+
+  # ------------------------------------------------------------ НАСТРОЙКИ (общие для всех языков)
+  - name: settings
+    label: "Настройки и дизайн"
+    editor: { preview: false }
+    files:
+      - name: settings
+        label: "Контакты, соцсети, дизайн, блоки"
+        file: content/settings.json
+        format: json
+        fields:
+          - label: "Контакты и компания"
+            name: business
+            widget: object
+            fields:
+              - { label: "Название (бренд)", name: brand, widget: string }
+              - { label: "Владелец", name: owner, widget: string }
+              - { label: "Логотип (если пусто — значок окна + название)", name: logo, widget: image, required: false }
+              - { label: "Телефон", name: phone, widget: string }
+              - { label: "WhatsApp (только цифры, с кодом страны)", name: whatsapp, widget: string, required: false, pattern: ['^\d*$', "Только цифры, например 393331234567"] }
+              - { label: "Telegram (имя пользователя без @)", name: telegram, widget: string, required: false }
+              - { label: "E-mail", name: email, widget: string, required: false }
+              - { label: "Адрес / зона работы", name: address, widget: string, required: false }
+              - { label: "Что показать на карте (адрес или город)", name: map_query, widget: string, required: false }
+              - { label: "P.IVA / реквизиты", name: vat, widget: string, required: false }
+
+          - label: "Соцсети"
+            name: socials
+            widget: list
+            summary: "{{network}}"
+            fields:
+              - { label: "Сеть", name: network, widget: select, options: [instagram, facebook, telegram, whatsapp, viber, tiktok, youtube, vk, linkedin, site] }
+              - { label: "Ссылка", name: url, widget: string }
+
+          - label: "Дизайн"
+            name: theme
+            widget: object
+            fields:
+              - label: "Тема"
+                name: mode
+                widget: select
+                options: [{ label: "Светлая", value: light }, { label: "Тёмная", value: dark }]
+              - { label: "Основной цвет", name: primary, widget: color }
+              - { label: "Цвет кнопок (акцент)", name: accent, widget: color }
+              - { label: "Цвет текста", name: ink, widget: color }
+              - { label: "Цвет фона блоков", name: surface, widget: color }
+              - label: "Шрифт"
+                name: font
+                widget: select
+                options:
+                  - { label: "Manrope — современный", value: manrope }
+                  - { label: "Inter — нейтральный", value: inter }
+                  - { label: "Montserrat — широкий", value: montserrat }
+                  - { label: "Playfair + Inter — классический", value: playfair }
+              - label: "Скругление углов"
+                name: corners
+                widget: select
+                options: [{ label: "Прямые", value: square }, { label: "Мягкие", value: soft }, { label: "Круглые", value: round }]
+              - label: "Вид первого экрана"
+                name: hero_layout
+                widget: select
+                options:
+                  - { label: "Фото в раме окна", value: frame }
+                  - { label: "На весь экран", value: full }
+                  - { label: "Пополам: текст и фото", value: split }
+              - label: "Что показывать на первом экране"
+                name: hero_media
+                widget: select
+                options: [{ label: "Одно фото", value: image }, { label: "Слайд-шоу", value: slideshow }, { label: "Видео", value: video }]
+              - label: "Фото первого экрана (для слайд-шоу — несколько)"
+                name: hero_images
+                widget: list
+                fields: [{ label: "Фото", name: image, widget: image }]
+              - { label: "Видео первого экрана (mp4, до 10 МБ, без звука)", name: hero_video, widget: file, required: false }
+              - { label: "Затемнение фото на весь экран, %", name: overlay, widget: number, value_type: int, min: 0, max: 90, default: 45 }
+
+          - label: "Блоки страницы (порядок перетаскиванием, галочка — показать)"
+            name: sections
+            widget: list
+            summary: "{{id}} — {{enabled}}"
+            fields:
+              - label: "Блок"
+                name: id
+                widget: select
+                options:
+                  - { label: "Услуги", value: services }
+                  - { label: "Технология", value: technology }
+                  - { label: "Цены", value: products }
+                  - { label: "Варианты покупки", value: purchase }
+                  - { label: "Этапы работы", value: process }
+                  - { label: "Монтаж", value: install }
+                  - { label: "Ремонт и диагностика", value: repair }
+                  - { label: "Галерея", value: gallery }
+                  - { label: "Видео", value: video }
+                  - { label: "Отзывы", value: reviews }
+                  - { label: "Вопросы", value: faq }
+                  - { label: "Контакты", value: contacts }
+              - { label: "Показывать", name: enabled, widget: boolean, default: true }
+
+          - label: "Видео-блок"
+            name: video
+            widget: object
+            fields:
+              - { label: "Видео: ссылка YouTube или файл mp4", name: url, widget: file, required: false }
+              - { label: "Обложка", name: poster, widget: image, required: false }
+
+          - label: "Форма заявки"
+            name: form
+            widget: object
+            fields:
+              - { label: "Ключ Web3Forms (заявки на e-mail). Пусто — заявка уходит в WhatsApp", name: web3forms_key, widget: string, required: false }
+              - { label: "Если ключа нет — отправлять в WhatsApp", name: whatsapp_fallback, widget: boolean, default: true }
+
+          - label: "SEO"
+            name: seo
+            widget: object
+            fields:
+              - { label: "Адрес сайта (если свой домен, например https://finestre-ivanov.it)", name: site_url, widget: string, required: false }
+              - { label: "Картинка для соцсетей", name: og_image, widget: image, required: false }

@@ -1,0 +1,2457 @@
+{
+  "it": {
+    "meta": {
+      "title": "Finestre in PVC a Milano — vendita, posa e riparazione | Ivanov Finestre",
+      "description": "Finestre in PVC su misura: sopralluogo gratuito, posa certificata, riparazione e regolazione infissi. Preventivo in 24 ore."
+    },
+    "nav": {
+      "services": "Servizi",
+      "technology": "Tecnologia",
+      "products": "Prezzi",
+      "install": "Posa",
+      "repair": "Riparazione",
+      "gallery": "Lavori",
+      "reviews": "Recensioni",
+      "faq": "Domande",
+      "contacts": "Contatti",
+      "call": "Chiama",
+      "menu": "Menu",
+      "language": "Lingua"
+    },
+    "hero": {
+      "title": "Finestre che chiudono bene. Per vent'anni.",
+      "subtitle": "Vendo, installo e riparo finestre in PVC. Prendo le misure di persona, monto con le mie mani e rispondo io al telefono anche dopo la posa.",
+      "cta_primary": "Prenota il sopralluogo gratuito",
+      "cta_secondary": "Scrivi su WhatsApp",
+      "points": [
+        {
+          "text": "Sopralluogo e misure gratis"
+        },
+        {
+          "text": "Preventivo scritto entro 24 ore"
+        },
+        {
+          "text": "Garanzia 10 anni sulla posa"
+        }
+      ],
+      "frame_width": "1 200 mm",
+      "frame_height": "1 400 mm"
+    },
+    "stats": [
+      {
+        "value": "12",
+        "label": "anni di lavoro con gli infissi"
+      },
+      {
+        "value": "2 300+",
+        "label": "finestre installate"
+      },
+      {
+        "value": "24 h",
+        "label": "per un preventivo scritto"
+      },
+      {
+        "value": "10",
+        "label": "anni di garanzia sulla posa"
+      }
+    ],
+    "services": {
+      "title": "Cosa faccio",
+      "intro": "Tutto quello che riguarda una finestra, dalla prima misura all'ultima regolazione.",
+      "items": [
+        {
+          "icon": "window",
+          "title": "Vendita finestre in PVC",
+          "text": "Profili a 5–7 camere, vetrocamera doppia o tripla, colori e finiture legno. Fornitura diretta dal produttore.",
+          "image": "https://images.unsplash.com/photo-1630830842235-0aa8bf81d481"
+        },
+        {
+          "icon": "tools",
+          "title": "Installazione",
+          "text": "Smontaggio del vecchio infisso, posa a regola d'arte con nastri e schiume, finitura e pulizia. Di solito in un giorno.",
+          "image": "https://images.unsplash.com/photo-1786204697642-328c597b6f05"
+        },
+        {
+          "icon": "wrench",
+          "title": "Riparazione e regolazione",
+          "text": "Ferramenta, guarnizioni, maniglie, cerniere, vetri. Le ante tornano a chiudere senza spifferi.",
+          "image": "https://images.unsplash.com/photo-1562259929-b4e1fd3aef09"
+        },
+        {
+          "icon": "door",
+          "title": "Porte e portefinestre",
+          "text": "Portefinestre, porte d'ingresso in PVC e alzanti scorrevoli per terrazzi e giardini.",
+          "image": "https://images.unsplash.com/photo-1525570665650-76bb26af503d"
+        },
+        {
+          "icon": "balcony",
+          "title": "Verande e balconi",
+          "text": "Chiusura di balconi e logge con vetrate in PVC o alluminio, isolamento e rifinitura interna.",
+          "image": "https://images.unsplash.com/photo-1776363116182-51694a04a1d5"
+        },
+        {
+          "icon": "net",
+          "title": "Accessori",
+          "text": "Zanzariere, davanzali, imbotti, tapparelle, veneziane e tende tecniche montate su misura.",
+          "image": "https://images.unsplash.com/photo-1695928668952-c3c01a638e1d"
+        }
+      ]
+    },
+    "technology": {
+      "title": "Com'è fatta una buona finestra",
+      "intro": "La differenza tra una finestra calda e una che appanna sta in pochi millimetri. Ecco cosa c'è dentro il profilo che monto.",
+      "parts": [
+        {
+          "title": "Profilo multicamera",
+          "text": "Da 5 a 7 camere d'aria interne: ognuna è una barriera in più contro il freddo."
+        },
+        {
+          "title": "Rinforzo in acciaio",
+          "text": "Un'anima in acciaio zincato dentro il profilo: l'anta non si deforma col tempo né col sole."
+        },
+        {
+          "title": "Vetrocamera",
+          "text": "Due o tre lastre con gas argon tra i vetri. Isola dal freddo, dal caldo e dal rumore della strada."
+        },
+        {
+          "title": "Vetro basso-emissivo",
+          "text": "Un rivestimento invisibile riflette il calore verso la stanza d'inverno e fuori d'estate."
+        },
+        {
+          "title": "Guarnizioni in EPDM",
+          "text": "Due o tre linee di tenuta in gomma elastica che non indurisce: niente spifferi e niente acqua."
+        },
+        {
+          "title": "Ferramenta anta-ribalta",
+          "text": "Chiusura perimetrale con nottolini antieffrazione, apertura a battente e a ribalta per arieggiare."
+        }
+      ],
+      "glazing_title": "Che vetro scegliere",
+      "glazing_head": {
+        "name": "Vetrocamera",
+        "uw": "Isolamento termico Ug",
+        "sound": "Isolamento acustico",
+        "use": "Ideale per"
+      },
+      "glazing": [
+        {
+          "name": "Doppio vetro 4-16-4 argon",
+          "uw": "1,1 W/m²K",
+          "sound": "fino a 32 dB",
+          "use": "Zone climatiche miti, stanze interne"
+        },
+        {
+          "name": "Doppio vetro basso-emissivo",
+          "uw": "1,0 W/m²K",
+          "sound": "fino a 34 dB",
+          "use": "La scelta più comune in appartamento"
+        },
+        {
+          "name": "Triplo vetro 4-12-4-12-4",
+          "uw": "0,6 W/m²K",
+          "sound": "fino a 38 dB",
+          "use": "Case passive, nord Italia, montagna"
+        },
+        {
+          "name": "Vetro acustico stratificato",
+          "uw": "1,0 W/m²K",
+          "sound": "fino a 44 dB",
+          "use": "Strade trafficate, ferrovie, aeroporti"
+        }
+      ]
+    },
+    "products": {
+      "title": "Tre linee di finestre",
+      "intro": "Prezzi indicativi per finestra standard 1200 × 1400 mm con posa. Il prezzo finale lo scrivo dopo le misure.",
+      "badge": "Più scelta",
+      "cta": "Chiedi un preventivo",
+      "items": [
+        {
+          "name": "Standard",
+          "price": "da 290 €",
+          "featured": false,
+          "features": [
+            {
+              "text": "Profilo 70 mm, 5 camere"
+            },
+            {
+              "text": "Doppio vetro con argon"
+            },
+            {
+              "text": "Uw ≈ 1,3 W/m²K"
+            },
+            {
+              "text": "Ferramenta anta-ribalta"
+            }
+          ]
+        },
+        {
+          "name": "Comfort",
+          "price": "da 390 €",
+          "featured": true,
+          "features": [
+            {
+              "text": "Profilo 76 mm, 6 camere"
+            },
+            {
+              "text": "Vetro basso-emissivo"
+            },
+            {
+              "text": "Uw ≈ 1,0 W/m²K"
+            },
+            {
+              "text": "Doppia guarnizione EPDM"
+            },
+            {
+              "text": "Detrazione fiscale possibile"
+            }
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "da 540 €",
+          "featured": false,
+          "features": [
+            {
+              "text": "Profilo 82 mm, 7 camere"
+            },
+            {
+              "text": "Triplo vetro, canalina calda"
+            },
+            {
+              "text": "Uw ≈ 0,8 W/m²K"
+            },
+            {
+              "text": "Ferramenta antieffrazione RC2"
+            },
+            {
+              "text": "Finiture legno e colori RAL"
+            }
+          ]
+        }
+      ]
+    },
+    "purchase": {
+      "title": "Come puoi acquistare",
+      "items": [
+        {
+          "icon": "box",
+          "title": "Solo fornitura",
+          "text": "Ti preparo le finestre su misura, le consegno e tu le fai montare a chi vuoi."
+        },
+        {
+          "icon": "tools",
+          "title": "Fornitura e posa",
+          "text": "Misuro, ordino, smonto il vecchio e monto il nuovo. La formula più scelta."
+        },
+        {
+          "icon": "key",
+          "title": "Chiavi in mano",
+          "text": "Posa più finiture: davanzali, imbotti, intonaco e tinteggiatura. Entri e la stanza è pronta."
+        },
+        {
+          "icon": "card",
+          "title": "Pagamento a rate",
+          "text": "Acconto alla firma, saldo a lavoro finito. Su richiesta finanziamento a rate e pratiche per le detrazioni."
+        }
+      ]
+    },
+    "process": {
+      "title": "Dal primo contatto alla finestra montata",
+      "steps": [
+        {
+          "title": "Chiamata o messaggio",
+          "text": "Mi racconti cosa ti serve, fissiamo un giorno per il sopralluogo."
+        },
+        {
+          "title": "Sopralluogo e misure",
+          "text": "Vengo da te, misuro i vani, ti mostro campioni di profili e vetri. Gratis."
+        },
+        {
+          "title": "Preventivo scritto",
+          "text": "Entro 24 ore ricevi il prezzo definitivo, senza voci nascoste."
+        },
+        {
+          "title": "Produzione",
+          "text": "Le finestre vengono prodotte su misura in 2–4 settimane."
+        },
+        {
+          "title": "Posa in un giorno",
+          "text": "Smontaggio, montaggio, sigillatura e pulizia. Lascio la casa in ordine."
+        },
+        {
+          "title": "Garanzia e assistenza",
+          "text": "10 anni sulla posa e una regolazione gratuita dopo il primo inverno."
+        }
+      ]
+    },
+    "install": {
+      "title": "La posa decide metà del risultato",
+      "text": "Anche la finestra migliore perde calore se viene montata male. Uso il sistema di posa a tre livelli: nastro impermeabile all'esterno, schiuma isolante al centro, barriera al vapore all'interno. Così il giunto resta asciutto e caldo per anni.",
+      "image": "https://images.unsplash.com/photo-1786295866839-d17f879c65cd",
+      "points": [
+        {
+          "text": "Smontaggio del vecchio infisso senza rompere l'intonaco"
+        },
+        {
+          "text": "Fissaggio meccanico con tasselli, non solo schiuma"
+        },
+        {
+          "text": "Nastri di tenuta all'aria e all'acqua sui tre livelli"
+        },
+        {
+          "text": "Controllo in bolla e prova di apertura di ogni anta"
+        },
+        {
+          "text": "Rimozione e smaltimento dei vecchi infissi"
+        }
+      ]
+    },
+    "repair": {
+      "title": "Diagnostica e riparazione",
+      "intro": "Non sempre serve cambiare la finestra. Spesso bastano un'ora di lavoro e un ricambio. Vengo, controllo e ti dico onestamente cosa conviene.",
+      "image": "https://images.unsplash.com/photo-1676311396794-f14881e9daaa",
+      "symptoms_title": "Chiamami se la tua finestra…",
+      "symptoms": [
+        {
+          "text": "fa entrare aria anche da chiusa"
+        },
+        {
+          "text": "si chiude a fatica o la maniglia è dura"
+        },
+        {
+          "text": "l'anta sfrega sul telaio o è scesa"
+        },
+        {
+          "text": "il vetro si appanna tra le due lastre"
+        },
+        {
+          "text": "si forma condensa o muffa sugli angoli"
+        },
+        {
+          "text": "non si apre più a ribalta"
+        }
+      ],
+      "prices_title": "Prezzi indicativi",
+      "prices": [
+        {
+          "name": "Diagnosi a domicilio",
+          "price": "gratis con la riparazione"
+        },
+        {
+          "name": "Regolazione di un'anta",
+          "price": "da 35 €"
+        },
+        {
+          "name": "Sostituzione guarnizioni (per anta)",
+          "price": "da 45 €"
+        },
+        {
+          "name": "Sostituzione maniglia",
+          "price": "da 25 €"
+        },
+        {
+          "name": "Sostituzione ferramenta",
+          "price": "da 90 €"
+        },
+        {
+          "name": "Sostituzione vetrocamera",
+          "price": "da 120 €"
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Lavori recenti",
+      "items": [
+        {
+          "image": "https://images.unsplash.com/photo-1600776216872-b39b2a3dd995",
+          "caption": "Soggiorno, finestra a due ante"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1758998256408-ab2c9fbec19b",
+          "caption": "Vetrata scorrevole verso il giardino"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1630830842235-0aa8bf81d481",
+          "caption": "Finestra bianca su facciata in intonaco"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1764837599929-100bd5890c57",
+          "caption": "Portafinestra con vista sul verde"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1597776862145-cbac3a4085ab",
+          "caption": "Finestra in stile classico"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1784280017604-c7eb21ee002c",
+          "caption": "Camera da letto, anta-ribalta"
+        }
+      ]
+    },
+    "video": {
+      "title": "Guarda come lavoro",
+      "text": "Una posa completa, dallo smontaggio alla pulizia finale.",
+      "play": "Riproduci il video"
+    },
+    "reviews": {
+      "title": "Cosa dicono i clienti",
+      "items": [
+        {
+          "name": "Giulia R.",
+          "place": "Milano, Città Studi",
+          "rating": 5,
+          "text": "Sei finestre cambiate in un giorno e mezzo. Nessuna crepa nell'intonaco, casa pulita. In inverno il riscaldamento si spegne prima."
+        },
+        {
+          "name": "Marco B.",
+          "place": "Sesto San Giovanni",
+          "rating": 5,
+          "text": "Pensavo di dover cambiare tutto, invece Ivan ha regolato le ante e sostituito le guarnizioni. Spesa minima, nessuno spiffero."
+        },
+        {
+          "name": "Olena K.",
+          "place": "Monza",
+          "rating": 5,
+          "text": "Preventivo chiaro, nessun costo extra. Mi ha seguito anche per la pratica della detrazione."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Domande frequenti",
+      "items": [
+        {
+          "q": "Il sopralluogo è davvero gratuito?",
+          "a": "Sì. Vengo, misuro e ti lascio un preventivo scritto. Non devi firmare niente."
+        },
+        {
+          "q": "Quanto dura la posa?",
+          "a": "Un appartamento medio con 4–6 finestre si fa in uno o due giorni. Una singola finestra in 2–3 ore."
+        },
+        {
+          "q": "Si sporca molto casa?",
+          "a": "Copro pavimenti e mobili, smonto senza rompere l'intonaco e pulisco a fine lavoro. Porto via i vecchi infissi."
+        },
+        {
+          "q": "Posso usare le detrazioni fiscali?",
+          "a": "Per la sostituzione di finestre con prodotti che rispettano i requisiti di trasmittanza puoi accedere alle detrazioni previste dalla legge in vigore. Ti preparo la documentazione tecnica necessaria."
+        },
+        {
+          "q": "Riparate finestre installate da altri?",
+          "a": "Sì, lavoro con la ferramenta dei principali produttori. Se un ricambio non esiste più, propongo un'alternativa compatibile."
+        },
+        {
+          "q": "In quali zone lavorate?",
+          "a": "Milano e provincia, Monza e Brianza. Per lavori più grandi anche fuori zona: chiedi pure."
+        }
+      ]
+    },
+    "contacts": {
+      "title": "Parliamo della tua finestra",
+      "text": "Chiama, scrivi su WhatsApp o lascia il numero: ti richiamo in giornata.",
+      "hours_label": "Orari",
+      "hours": "Lun–Sab, 8:00–19:00",
+      "address_label": "Zona di lavoro",
+      "follow": "Seguimi sui social",
+      "map_button": "Mostra la mappa",
+      "map_note": "La mappa viene caricata da Google solo dopo il clic.",
+      "form": {
+        "title": "Richiedi un sopralluogo",
+        "name": "Nome",
+        "phone": "Telefono",
+        "service": "Cosa ti serve",
+        "services": [
+          {
+            "text": "Nuove finestre"
+          },
+          {
+            "text": "Riparazione o regolazione"
+          },
+          {
+            "text": "Porta o portafinestra"
+          },
+          {
+            "text": "Balcone o veranda"
+          },
+          {
+            "text": "Altro"
+          }
+        ],
+        "message": "Messaggio (facoltativo)",
+        "submit": "Invia la richiesta",
+        "sending": "Invio in corso…",
+        "success": "Richiesta inviata. Ti richiamo in giornata.",
+        "error": "Invio non riuscito. Chiama o scrivi su WhatsApp, rispondo subito.",
+        "privacy": "Inviando accetti che i tuoi dati vengano usati solo per ricontattarti."
+      }
+    },
+    "footer": {
+      "text": "Vendita, posa e riparazione di finestre in PVC.",
+      "rights": "Tutti i diritti riservati."
+    }
+  },
+  "en": {
+    "meta": {
+      "title": "PVC windows in Milan — sales, installation and repair | Ivanov Finestre",
+      "description": "Made-to-measure PVC windows: free survey, certified installation, window repair and adjustment. Written quote within 24 hours."
+    },
+    "nav": {
+      "services": "Services",
+      "technology": "Technology",
+      "products": "Prices",
+      "install": "Installation",
+      "repair": "Repair",
+      "gallery": "Projects",
+      "reviews": "Reviews",
+      "faq": "FAQ",
+      "contacts": "Contact",
+      "call": "Call",
+      "menu": "Menu",
+      "language": "Language"
+    },
+    "hero": {
+      "title": "Windows that close properly. For twenty years.",
+      "subtitle": "I sell, install and repair PVC windows. I take the measurements myself, fit them with my own hands and still answer the phone after the job is done.",
+      "cta_primary": "Book a free survey",
+      "cta_secondary": "Message on WhatsApp",
+      "points": [
+        {
+          "text": "Free survey and measuring"
+        },
+        {
+          "text": "Written quote within 24 hours"
+        },
+        {
+          "text": "10-year installation guarantee"
+        }
+      ],
+      "frame_width": "1,200 mm",
+      "frame_height": "1,400 mm"
+    },
+    "stats": [
+      {
+        "value": "12",
+        "label": "years working with windows"
+      },
+      {
+        "value": "2,300+",
+        "label": "windows installed"
+      },
+      {
+        "value": "24 h",
+        "label": "to get a written quote"
+      },
+      {
+        "value": "10",
+        "label": "years of installation guarantee"
+      }
+    ],
+    "services": {
+      "title": "What I do",
+      "intro": "Everything a window needs, from the first measurement to the last adjustment.",
+      "items": [
+        {
+          "icon": "window",
+          "title": "PVC window sales",
+          "text": "5–7 chamber profiles, double or triple glazing, colours and wood-effect finishes. Supplied direct from the manufacturer.",
+          "image": "https://images.unsplash.com/photo-1630830842235-0aa8bf81d481"
+        },
+        {
+          "icon": "tools",
+          "title": "Installation",
+          "text": "Removal of the old frame, professional fitting with tapes and foam, finishing and clean-up. Usually done in a day.",
+          "image": "https://images.unsplash.com/photo-1786204697642-328c597b6f05"
+        },
+        {
+          "icon": "wrench",
+          "title": "Repair and adjustment",
+          "text": "Hardware, seals, handles, hinges, glass. Sashes close again with no draughts.",
+          "image": "https://images.unsplash.com/photo-1562259929-b4e1fd3aef09"
+        },
+        {
+          "icon": "door",
+          "title": "Doors and French windows",
+          "text": "French windows, PVC entrance doors and lift-and-slide doors for terraces and gardens.",
+          "image": "https://images.unsplash.com/photo-1525570665650-76bb26af503d"
+        },
+        {
+          "icon": "balcony",
+          "title": "Balconies and conservatories",
+          "text": "Glazing of balconies and loggias in PVC or aluminium, insulation and interior finishing.",
+          "image": "https://images.unsplash.com/photo-1776363116182-51694a04a1d5"
+        },
+        {
+          "icon": "net",
+          "title": "Accessories",
+          "text": "Insect screens, sills, reveals, roller shutters, blinds and technical curtains, made to measure.",
+          "image": "https://images.unsplash.com/photo-1695928668952-c3c01a638e1d"
+        }
+      ]
+    },
+    "technology": {
+      "title": "What makes a good window",
+      "intro": "The difference between a warm window and one that fogs up is a few millimetres. Here is what's inside the profile I install.",
+      "parts": [
+        {
+          "title": "Multi-chamber profile",
+          "text": "5 to 7 internal air chambers: each one is another barrier against the cold."
+        },
+        {
+          "title": "Steel reinforcement",
+          "text": "A galvanised steel core inside the profile keeps the sash from warping over time or in the sun."
+        },
+        {
+          "title": "Insulated glass unit",
+          "text": "Two or three panes with argon gas between them. Keeps out cold, heat and street noise."
+        },
+        {
+          "title": "Low-E glass",
+          "text": "An invisible coating reflects heat back into the room in winter and outside in summer."
+        },
+        {
+          "title": "EPDM seals",
+          "text": "Two or three lines of elastic rubber that doesn't harden: no draughts, no water."
+        },
+        {
+          "title": "Tilt-and-turn hardware",
+          "text": "Perimeter locking with anti-burglary cams, turn opening plus tilt for ventilation."
+        }
+      ],
+      "glazing_title": "Which glass to choose",
+      "glazing_head": {
+        "name": "Glazing",
+        "uw": "Thermal insulation Ug",
+        "sound": "Sound insulation",
+        "use": "Best for"
+      },
+      "glazing": [
+        {
+          "name": "Double 4-16-4 argon",
+          "uw": "1.1 W/m²K",
+          "sound": "up to 32 dB",
+          "use": "Mild climates, inner rooms"
+        },
+        {
+          "name": "Double low-E",
+          "uw": "1.0 W/m²K",
+          "sound": "up to 34 dB",
+          "use": "The most common choice for flats"
+        },
+        {
+          "name": "Triple 4-12-4-12-4",
+          "uw": "0.6 W/m²K",
+          "sound": "up to 38 dB",
+          "use": "Passive houses, northern Italy, mountains"
+        },
+        {
+          "name": "Acoustic laminated glass",
+          "uw": "1.0 W/m²K",
+          "sound": "up to 44 dB",
+          "use": "Busy roads, railways, airports"
+        }
+      ]
+    },
+    "products": {
+      "title": "Three window ranges",
+      "intro": "Guide prices for a standard 1200 × 1400 mm window including installation. I confirm the final price after measuring.",
+      "badge": "Most popular",
+      "cta": "Ask for a quote",
+      "items": [
+        {
+          "name": "Standard",
+          "price": "from €290",
+          "featured": false,
+          "features": [
+            {
+              "text": "70 mm profile, 5 chambers"
+            },
+            {
+              "text": "Double glazing with argon"
+            },
+            {
+              "text": "Uw ≈ 1.3 W/m²K"
+            },
+            {
+              "text": "Tilt-and-turn hardware"
+            }
+          ]
+        },
+        {
+          "name": "Comfort",
+          "price": "from €390",
+          "featured": true,
+          "features": [
+            {
+              "text": "76 mm profile, 6 chambers"
+            },
+            {
+              "text": "Low-E glass"
+            },
+            {
+              "text": "Uw ≈ 1.0 W/m²K"
+            },
+            {
+              "text": "Double EPDM seal"
+            },
+            {
+              "text": "Eligible for tax relief"
+            }
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "from €540",
+          "featured": false,
+          "features": [
+            {
+              "text": "82 mm profile, 7 chambers"
+            },
+            {
+              "text": "Triple glazing, warm edge spacer"
+            },
+            {
+              "text": "Uw ≈ 0.8 W/m²K"
+            },
+            {
+              "text": "RC2 anti-burglary hardware"
+            },
+            {
+              "text": "Wood-effect and RAL colours"
+            }
+          ]
+        }
+      ]
+    },
+    "purchase": {
+      "title": "Ways to buy",
+      "items": [
+        {
+          "icon": "box",
+          "title": "Supply only",
+          "text": "I prepare made-to-measure windows and deliver them; you have them fitted by whoever you like."
+        },
+        {
+          "icon": "tools",
+          "title": "Supply and installation",
+          "text": "I measure, order, remove the old windows and fit the new ones. The most popular option."
+        },
+        {
+          "icon": "key",
+          "title": "Turnkey",
+          "text": "Installation plus finishing: sills, reveals, plaster and paint. The room is ready when I leave."
+        },
+        {
+          "icon": "card",
+          "title": "Pay in instalments",
+          "text": "Deposit on signing, balance on completion. Financing and tax-relief paperwork on request."
+        }
+      ]
+    },
+    "process": {
+      "title": "From first call to finished window",
+      "steps": [
+        {
+          "title": "Call or message",
+          "text": "Tell me what you need and we set a day for the survey."
+        },
+        {
+          "title": "Survey and measuring",
+          "text": "I come to you, measure the openings and show you profile and glass samples. Free."
+        },
+        {
+          "title": "Written quote",
+          "text": "Within 24 hours you get the final price, with no hidden extras."
+        },
+        {
+          "title": "Manufacturing",
+          "text": "The windows are made to measure in 2–4 weeks."
+        },
+        {
+          "title": "Fitted in a day",
+          "text": "Removal, installation, sealing and clean-up. I leave your home tidy."
+        },
+        {
+          "title": "Guarantee and service",
+          "text": "10 years on installation and a free adjustment after the first winter."
+        }
+      ]
+    },
+    "install": {
+      "title": "Installation decides half the result",
+      "text": "Even the best window loses heat if it's badly fitted. I use a three-layer installation system: waterproof tape outside, insulating foam in the middle and a vapour barrier inside. The joint stays dry and warm for years.",
+      "image": "https://images.unsplash.com/photo-1786295866839-d17f879c65cd",
+      "points": [
+        {
+          "text": "Old frame removed without damaging the plaster"
+        },
+        {
+          "text": "Mechanical fixing with anchors, not just foam"
+        },
+        {
+          "text": "Air- and water-tight tapes on all three layers"
+        },
+        {
+          "text": "Level check and opening test on every sash"
+        },
+        {
+          "text": "Old windows taken away and disposed of"
+        }
+      ]
+    },
+    "repair": {
+      "title": "Diagnostics and repair",
+      "intro": "You don't always need a new window. Often an hour's work and a spare part will do. I come, check it and tell you honestly what makes sense.",
+      "image": "https://images.unsplash.com/photo-1676311396794-f14881e9daaa",
+      "symptoms_title": "Call me if your window…",
+      "symptoms": [
+        {
+          "text": "lets air in even when closed"
+        },
+        {
+          "text": "is hard to close or the handle is stiff"
+        },
+        {
+          "text": "rubs on the frame or has dropped"
+        },
+        {
+          "text": "fogs up between the two panes"
+        },
+        {
+          "text": "gets condensation or mould in the corners"
+        },
+        {
+          "text": "no longer tilts open"
+        }
+      ],
+      "prices_title": "Guide prices",
+      "prices": [
+        {
+          "name": "Home diagnosis",
+          "price": "free with repair"
+        },
+        {
+          "name": "Sash adjustment",
+          "price": "from €35"
+        },
+        {
+          "name": "Seal replacement (per sash)",
+          "price": "from €45"
+        },
+        {
+          "name": "Handle replacement",
+          "price": "from €25"
+        },
+        {
+          "name": "Hardware replacement",
+          "price": "from €90"
+        },
+        {
+          "name": "Glass unit replacement",
+          "price": "from €120"
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Recent work",
+      "items": [
+        {
+          "image": "https://images.unsplash.com/photo-1600776216872-b39b2a3dd995",
+          "caption": "Living room, two-sash window"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1758998256408-ab2c9fbec19b",
+          "caption": "Sliding glass door to the garden"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1630830842235-0aa8bf81d481",
+          "caption": "White window on a rendered façade"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1764837599929-100bd5890c57",
+          "caption": "French window with a green view"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1597776862145-cbac3a4085ab",
+          "caption": "Classic-style window"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1784280017604-c7eb21ee002c",
+          "caption": "Bedroom, tilt-and-turn"
+        }
+      ]
+    },
+    "video": {
+      "title": "See how I work",
+      "text": "A complete installation, from removal to final clean-up.",
+      "play": "Play video"
+    },
+    "reviews": {
+      "title": "What clients say",
+      "items": [
+        {
+          "name": "Giulia R.",
+          "place": "Milan, Città Studi",
+          "rating": 5,
+          "text": "Six windows replaced in a day and a half. No cracks in the plaster, house left clean. In winter the heating switches off sooner."
+        },
+        {
+          "name": "Marco B.",
+          "place": "Sesto San Giovanni",
+          "rating": 5,
+          "text": "I thought I had to replace everything, but Ivan adjusted the sashes and changed the seals. Minimal cost, no more draughts."
+        },
+        {
+          "name": "Olena K.",
+          "place": "Monza",
+          "rating": 5,
+          "text": "Clear quote, no extra costs. He also helped me with the tax-relief paperwork."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Is the survey really free?",
+          "a": "Yes. I come, measure and leave you a written quote. You don't have to sign anything."
+        },
+        {
+          "q": "How long does installation take?",
+          "a": "An average flat with 4–6 windows takes one or two days. A single window takes 2–3 hours."
+        },
+        {
+          "q": "Does it make a lot of mess?",
+          "a": "I cover floors and furniture, remove frames without breaking the plaster and clean up at the end. I take the old windows away."
+        },
+        {
+          "q": "Can I claim tax relief?",
+          "a": "Replacing windows with products that meet the thermal requirements qualifies for the deductions under current law. I prepare the technical documents you need."
+        },
+        {
+          "q": "Do you repair windows fitted by others?",
+          "a": "Yes, I work with hardware from all major manufacturers. If a part is discontinued I suggest a compatible alternative."
+        },
+        {
+          "q": "Which areas do you cover?",
+          "a": "Milan and province, Monza and Brianza. Larger jobs further afield too — just ask."
+        }
+      ]
+    },
+    "contacts": {
+      "title": "Let's talk about your window",
+      "text": "Call, message on WhatsApp or leave your number — I'll call you back the same day.",
+      "hours_label": "Hours",
+      "hours": "Mon–Sat, 8:00–19:00",
+      "address_label": "Area",
+      "follow": "Follow me",
+      "map_button": "Show map",
+      "map_note": "The map loads from Google only after you click.",
+      "form": {
+        "title": "Request a survey",
+        "name": "Name",
+        "phone": "Phone",
+        "service": "What do you need",
+        "services": [
+          {
+            "text": "New windows"
+          },
+          {
+            "text": "Repair or adjustment"
+          },
+          {
+            "text": "Door or French window"
+          },
+          {
+            "text": "Balcony or conservatory"
+          },
+          {
+            "text": "Other"
+          }
+        ],
+        "message": "Message (optional)",
+        "submit": "Send request",
+        "sending": "Sending…",
+        "success": "Request sent. I'll call you back today.",
+        "error": "Couldn't send. Please call or message on WhatsApp — I reply quickly.",
+        "privacy": "By sending, you agree your details are used only to contact you."
+      }
+    },
+    "footer": {
+      "text": "PVC window sales, installation and repair.",
+      "rights": "All rights reserved."
+    }
+  },
+  "uk": {
+    "meta": {
+      "title": "Пластикові вікна в Мілані — продаж, встановлення, ремонт | Ivanov Finestre",
+      "description": "Металопластикові вікна на замовлення: безкоштовний замір, монтаж за технологією, ремонт і регулювання вікон. Кошторис за 24 години."
+    },
+    "nav": {
+      "services": "Послуги",
+      "technology": "Технологія",
+      "products": "Ціни",
+      "install": "Монтаж",
+      "repair": "Ремонт",
+      "gallery": "Роботи",
+      "reviews": "Відгуки",
+      "faq": "Питання",
+      "contacts": "Контакти",
+      "call": "Зателефонувати",
+      "menu": "Меню",
+      "language": "Мова"
+    },
+    "hero": {
+      "title": "Вікна, які добре зачиняються. Двадцять років.",
+      "subtitle": "Продаю, встановлюю та ремонтую пластикові вікна. Сам приїжджаю на замір, сам монтую і сам відповідаю на дзвінки після встановлення.",
+      "cta_primary": "Записатися на безкоштовний замір",
+      "cta_secondary": "Написати у WhatsApp",
+      "points": [
+        {
+          "text": "Безкоштовний виїзд і замір"
+        },
+        {
+          "text": "Письмовий кошторис за 24 години"
+        },
+        {
+          "text": "Гарантія на монтаж 10 років"
+        }
+      ],
+      "frame_width": "1 200 мм",
+      "frame_height": "1 400 мм"
+    },
+    "stats": [
+      {
+        "value": "12",
+        "label": "років працюю з вікнами"
+      },
+      {
+        "value": "2 300+",
+        "label": "вікон встановлено"
+      },
+      {
+        "value": "24 год",
+        "label": "на письмовий кошторис"
+      },
+      {
+        "value": "10",
+        "label": "років гарантії на монтаж"
+      }
+    ],
+    "services": {
+      "title": "Що я роблю",
+      "intro": "Усе, що стосується вікна: від першого заміру до останнього регулювання.",
+      "items": [
+        {
+          "icon": "window",
+          "title": "Продаж вікон ПВХ",
+          "text": "Профілі на 5–7 камер, одно- та двокамерні склопакети, кольори й ламінація під дерево. Постачання напряму від заводу.",
+          "image": "https://images.unsplash.com/photo-1630830842235-0aa8bf81d481"
+        },
+        {
+          "icon": "tools",
+          "title": "Встановлення",
+          "text": "Демонтаж старого вікна, монтаж за технологією зі стрічками й піною, оздоблення та прибирання. Зазвичай за один день.",
+          "image": "https://images.unsplash.com/photo-1786204697642-328c597b6f05"
+        },
+        {
+          "icon": "wrench",
+          "title": "Ремонт і регулювання",
+          "text": "Фурнітура, ущільнювачі, ручки, петлі, склопакети. Стулки знову зачиняються без протягів.",
+          "image": "https://images.unsplash.com/photo-1562259929-b4e1fd3aef09"
+        },
+        {
+          "icon": "door",
+          "title": "Двері та балконні блоки",
+          "text": "Балконні двері, вхідні двері ПВХ та підйомно-розсувні системи для терас і садів.",
+          "image": "https://images.unsplash.com/photo-1525570665650-76bb26af503d"
+        },
+        {
+          "icon": "balcony",
+          "title": "Балкони та лоджії",
+          "text": "Скління балконів і лоджій у ПВХ або алюмінії, утеплення та внутрішнє оздоблення.",
+          "image": "https://images.unsplash.com/photo-1776363116182-51694a04a1d5"
+        },
+        {
+          "icon": "net",
+          "title": "Комплектуючі",
+          "text": "Москітні сітки, підвіконня, укоси, ролети, жалюзі та штори — усе за розміром.",
+          "image": "https://images.unsplash.com/photo-1695928668952-c3c01a638e1d"
+        }
+      ]
+    },
+    "technology": {
+      "title": "З чого складається добре вікно",
+      "intro": "Різниця між теплим вікном і вікном, що пітніє, — кілька міліметрів. Ось що всередині профілю, який я ставлю.",
+      "parts": [
+        {
+          "title": "Багатокамерний профіль",
+          "text": "Від 5 до 7 внутрішніх повітряних камер — кожна ще один бар'єр для холоду."
+        },
+        {
+          "title": "Сталеве армування",
+          "text": "Оцинкована сталь усередині профілю: стулку не веде ні з часом, ні від сонця."
+        },
+        {
+          "title": "Склопакет",
+          "text": "Два або три скла з аргоном між ними. Захищає від холоду, спеки та вуличного шуму."
+        },
+        {
+          "title": "Енергозберігаюче скло",
+          "text": "Невидиме напилення повертає тепло в кімнату взимку і відбиває його влітку."
+        },
+        {
+          "title": "Ущільнювачі EPDM",
+          "text": "Два-три контури еластичної гуми, яка не твердне: ні протягів, ні води."
+        },
+        {
+          "title": "Поворотно-відкидна фурнітура",
+          "text": "Замикання по периметру з протизламними цапфами, відчинення та відкидання для провітрювання."
+        }
+      ],
+      "glazing_title": "Який склопакет обрати",
+      "glazing_head": {
+        "name": "Склопакет",
+        "uw": "Теплоізоляція Ug",
+        "sound": "Шумоізоляція",
+        "use": "Для чого"
+      },
+      "glazing": [
+        {
+          "name": "Однокамерний 4-16-4, аргон",
+          "uw": "1,1 Вт/м²K",
+          "sound": "до 32 дБ",
+          "use": "М'який клімат, внутрішні кімнати"
+        },
+        {
+          "name": "Однокамерний енергозберігаючий",
+          "uw": "1,0 Вт/м²K",
+          "sound": "до 34 дБ",
+          "use": "Найчастіший вибір для квартири"
+        },
+        {
+          "name": "Двокамерний 4-12-4-12-4",
+          "uw": "0,6 Вт/м²K",
+          "sound": "до 38 дБ",
+          "use": "Пасивні будинки, північ Італії, гори"
+        },
+        {
+          "name": "Шумозахисний триплекс",
+          "uw": "1,0 Вт/м²K",
+          "sound": "до 44 дБ",
+          "use": "Жваві вулиці, залізниця, аеропорт"
+        }
+      ]
+    },
+    "products": {
+      "title": "Три лінійки вікон",
+      "intro": "Орієнтовні ціни за стандартне вікно 1200 × 1400 мм зі встановленням. Точну ціну називаю після заміру.",
+      "badge": "Найчастіше обирають",
+      "cta": "Замовити розрахунок",
+      "items": [
+        {
+          "name": "Стандарт",
+          "price": "від 290 €",
+          "featured": false,
+          "features": [
+            {
+              "text": "Профіль 70 мм, 5 камер"
+            },
+            {
+              "text": "Склопакет з аргоном"
+            },
+            {
+              "text": "Uw ≈ 1,3 Вт/м²K"
+            },
+            {
+              "text": "Поворотно-відкидна фурнітура"
+            }
+          ]
+        },
+        {
+          "name": "Комфорт",
+          "price": "від 390 €",
+          "featured": true,
+          "features": [
+            {
+              "text": "Профіль 76 мм, 6 камер"
+            },
+            {
+              "text": "Енергозберігаюче скло"
+            },
+            {
+              "text": "Uw ≈ 1,0 Вт/м²K"
+            },
+            {
+              "text": "Два контури ущільнення EPDM"
+            },
+            {
+              "text": "Можна оформити податкову знижку"
+            }
+          ]
+        },
+        {
+          "name": "Преміум",
+          "price": "від 540 €",
+          "featured": false,
+          "features": [
+            {
+              "text": "Профіль 82 мм, 7 камер"
+            },
+            {
+              "text": "Двокамерний склопакет, тепла рамка"
+            },
+            {
+              "text": "Uw ≈ 0,8 Вт/м²K"
+            },
+            {
+              "text": "Протизламна фурнітура RC2"
+            },
+            {
+              "text": "Ламінація під дерево та кольори RAL"
+            }
+          ]
+        }
+      ]
+    },
+    "purchase": {
+      "title": "Як можна придбати",
+      "items": [
+        {
+          "icon": "box",
+          "title": "Лише постачання",
+          "text": "Виготовлю вікна за вашими розмірами й привезу. Встановлює хто завгодно."
+        },
+        {
+          "icon": "tools",
+          "title": "Постачання і монтаж",
+          "text": "Заміряю, замовляю, знімаю старі вікна й ставлю нові. Найпопулярніший варіант."
+        },
+        {
+          "icon": "key",
+          "title": "Під ключ",
+          "text": "Монтаж плюс оздоблення: підвіконня, укоси, штукатурка й фарбування. Кімната готова одразу."
+        },
+        {
+          "icon": "card",
+          "title": "Оплата частинами",
+          "text": "Аванс при підписанні, решта після роботи. За запитом розстрочка та документи для знижки."
+        }
+      ]
+    },
+    "process": {
+      "title": "Від дзвінка до готового вікна",
+      "steps": [
+        {
+          "title": "Дзвінок або повідомлення",
+          "text": "Розповідаєте, що потрібно, домовляємося про день заміру."
+        },
+        {
+          "title": "Виїзд і замір",
+          "text": "Приїжджаю, міряю прорізи, показую зразки профілів і скла. Безкоштовно."
+        },
+        {
+          "title": "Письмовий кошторис",
+          "text": "Протягом 24 годин — остаточна ціна без прихованих пунктів."
+        },
+        {
+          "title": "Виготовлення",
+          "text": "Вікна виготовляють за розмірами за 2–4 тижні."
+        },
+        {
+          "title": "Монтаж за день",
+          "text": "Демонтаж, встановлення, герметизація, прибирання. Залишаю дім у порядку."
+        },
+        {
+          "title": "Гарантія і сервіс",
+          "text": "10 років на монтаж і безкоштовне регулювання після першої зими."
+        }
+      ]
+    },
+    "install": {
+      "title": "Монтаж — це половина результату",
+      "text": "Навіть найкраще вікно втрачає тепло, якщо його погано поставити. Я монтую за тришаровою схемою: зовні гідроізоляційна стрічка, посередині утеплювальна піна, всередині пароізоляція. Шов лишається сухим і теплим роками.",
+      "image": "https://images.unsplash.com/photo-1786295866839-d17f879c65cd",
+      "points": [
+        {
+          "text": "Демонтаж старого вікна без руйнування штукатурки"
+        },
+        {
+          "text": "Механічне кріплення анкерами, а не лише на піну"
+        },
+        {
+          "text": "Стрічки від води та вітру на всіх трьох рівнях"
+        },
+        {
+          "text": "Перевірка рівнем і відчинення кожної стулки"
+        },
+        {
+          "text": "Вивезення та утилізація старих вікон"
+        }
+      ]
+    },
+    "repair": {
+      "title": "Діагностика і ремонт",
+      "intro": "Міняти вікно потрібно не завжди. Часто вистачає години роботи й однієї запчастини. Приїду, перевірю й чесно скажу, що вигідніше.",
+      "image": "https://images.unsplash.com/photo-1676311396794-f14881e9daaa",
+      "symptoms_title": "Телефонуйте, якщо вікно…",
+      "symptoms": [
+        {
+          "text": "дме навіть у зачиненому стані"
+        },
+        {
+          "text": "туго зачиняється або ручка повертається важко"
+        },
+        {
+          "text": "стулка чіпляє раму або провисла"
+        },
+        {
+          "text": "склопакет запітнів зсередини"
+        },
+        {
+          "text": "по кутах конденсат або цвіль"
+        },
+        {
+          "text": "перестало відкидатися на провітрювання"
+        }
+      ],
+      "prices_title": "Орієнтовні ціни",
+      "prices": [
+        {
+          "name": "Діагностика вдома",
+          "price": "безкоштовно при ремонті"
+        },
+        {
+          "name": "Регулювання стулки",
+          "price": "від 35 €"
+        },
+        {
+          "name": "Заміна ущільнювача (стулка)",
+          "price": "від 45 €"
+        },
+        {
+          "name": "Заміна ручки",
+          "price": "від 25 €"
+        },
+        {
+          "name": "Заміна фурнітури",
+          "price": "від 90 €"
+        },
+        {
+          "name": "Заміна склопакета",
+          "price": "від 120 €"
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Останні роботи",
+      "items": [
+        {
+          "image": "https://images.unsplash.com/photo-1600776216872-b39b2a3dd995",
+          "caption": "Вітальня, двостулкове вікно"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1758998256408-ab2c9fbec19b",
+          "caption": "Розсувні двері в сад"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1630830842235-0aa8bf81d481",
+          "caption": "Біле вікно на тинькованому фасаді"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1764837599929-100bd5890c57",
+          "caption": "Балконні двері з видом на зелень"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1597776862145-cbac3a4085ab",
+          "caption": "Вікно в класичному стилі"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1784280017604-c7eb21ee002c",
+          "caption": "Спальня, поворотно-відкидна стулка"
+        }
+      ]
+    },
+    "video": {
+      "title": "Як я працюю",
+      "text": "Повний монтаж — від демонтажу до фінального прибирання.",
+      "play": "Дивитися відео"
+    },
+    "reviews": {
+      "title": "Відгуки клієнтів",
+      "items": [
+        {
+          "name": "Джулія Р.",
+          "place": "Мілан, Città Studi",
+          "rating": 5,
+          "text": "Шість вікон замінили за півтора дня. Штукатурка ціла, вдома чисто. Взимку опалення вимикається раніше."
+        },
+        {
+          "name": "Марко Б.",
+          "place": "Сесто-Сан-Джованні",
+          "rating": 5,
+          "text": "Думав, доведеться міняти все, а Іван відрегулював стулки й замінив ущільнювачі. Мінімум витрат, протягів немає."
+        },
+        {
+          "name": "Олена К.",
+          "place": "Монца",
+          "rating": 5,
+          "text": "Зрозумілий кошторис, без доплат. Допоміг і з документами на податкову знижку."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Часті питання",
+      "items": [
+        {
+          "q": "Замір справді безкоштовний?",
+          "a": "Так. Приїжджаю, міряю й залишаю письмовий кошторис. Нічого підписувати не потрібно."
+        },
+        {
+          "q": "Скільки триває монтаж?",
+          "a": "Середня квартира з 4–6 вікнами — один-два дні. Одне вікно — 2–3 години."
+        },
+        {
+          "q": "Буде багато бруду?",
+          "a": "Накриваю підлогу й меблі, знімаю вікна без руйнування штукатурки та прибираю після роботи. Старі вікна вивожу."
+        },
+        {
+          "q": "Чи можна отримати податкову знижку?",
+          "a": "При заміні вікон на вироби з потрібною теплопередачею можна скористатися знижками за чинним законом. Підготую потрібні технічні документи."
+        },
+        {
+          "q": "Ремонтуєте вікна інших монтажників?",
+          "a": "Так, працюю з фурнітурою основних виробників. Якщо деталь знято з виробництва, запропоную сумісну заміну."
+        },
+        {
+          "q": "Де ви працюєте?",
+          "a": "Мілан і провінція, Монца і Брианца. Великі замовлення — і далі, питайте."
+        }
+      ]
+    },
+    "contacts": {
+      "title": "Обговоримо ваше вікно",
+      "text": "Зателефонуйте, напишіть у WhatsApp або залиште номер — передзвоню того ж дня.",
+      "hours_label": "Години роботи",
+      "hours": "Пн–Сб, 8:00–19:00",
+      "address_label": "Район роботи",
+      "follow": "Я в соцмережах",
+      "map_button": "Показати карту",
+      "map_note": "Карта завантажується з Google лише після натискання.",
+      "form": {
+        "title": "Заявка на замір",
+        "name": "Ім'я",
+        "phone": "Телефон",
+        "service": "Що потрібно",
+        "services": [
+          {
+            "text": "Нові вікна"
+          },
+          {
+            "text": "Ремонт або регулювання"
+          },
+          {
+            "text": "Двері або балконний блок"
+          },
+          {
+            "text": "Балкон або лоджія"
+          },
+          {
+            "text": "Інше"
+          }
+        ],
+        "message": "Повідомлення (необов'язково)",
+        "submit": "Надіслати заявку",
+        "sending": "Надсилаю…",
+        "success": "Заявку надіслано. Передзвоню сьогодні.",
+        "error": "Не вдалося надіслати. Зателефонуйте або напишіть у WhatsApp — відповім одразу.",
+        "privacy": "Надсилаючи заявку, ви погоджуєтеся, що дані використовуються лише для зв'язку з вами."
+      }
+    },
+    "footer": {
+      "text": "Продаж, встановлення та ремонт пластикових вікон.",
+      "rights": "Усі права захищено."
+    }
+  },
+  "ru": {
+    "meta": {
+      "title": "Пластиковые окна в Милане — продажа, установка, ремонт | Ivanov Finestre",
+      "description": "Металлопластиковые окна на заказ: бесплатный замер, монтаж по технологии, ремонт и регулировка окон. Смета за 24 часа."
+    },
+    "nav": {
+      "services": "Услуги",
+      "technology": "Технология",
+      "products": "Цены",
+      "install": "Монтаж",
+      "repair": "Ремонт",
+      "gallery": "Работы",
+      "reviews": "Отзывы",
+      "faq": "Вопросы",
+      "contacts": "Контакты",
+      "call": "Позвонить",
+      "menu": "Меню",
+      "language": "Язык"
+    },
+    "hero": {
+      "title": "Окна, которые хорошо закрываются. Двадцать лет.",
+      "subtitle": "Продаю, устанавливаю и ремонтирую пластиковые окна. Сам приезжаю на замер, сам монтирую и сам отвечаю на звонки после установки.",
+      "cta_primary": "Записаться на бесплатный замер",
+      "cta_secondary": "Написать в WhatsApp",
+      "points": [
+        {
+          "text": "Бесплатный выезд и замер"
+        },
+        {
+          "text": "Письменная смета за 24 часа"
+        },
+        {
+          "text": "Гарантия на монтаж 10 лет"
+        }
+      ],
+      "frame_width": "1 200 мм",
+      "frame_height": "1 400 мм"
+    },
+    "stats": [
+      {
+        "value": "12",
+        "label": "лет работаю с окнами"
+      },
+      {
+        "value": "2 300+",
+        "label": "окон установлено"
+      },
+      {
+        "value": "24 ч",
+        "label": "на письменную смету"
+      },
+      {
+        "value": "10",
+        "label": "лет гарантии на монтаж"
+      }
+    ],
+    "services": {
+      "title": "Что я делаю",
+      "intro": "Всё, что связано с окном: от первого замера до последней регулировки.",
+      "items": [
+        {
+          "icon": "window",
+          "title": "Продажа окон ПВХ",
+          "text": "Профили на 5–7 камер, двух- и трёхкамерные стеклопакеты, цвета и ламинация под дерево. Поставка напрямую от завода.",
+          "image": "https://images.unsplash.com/photo-1630830842235-0aa8bf81d481"
+        },
+        {
+          "icon": "tools",
+          "title": "Установка",
+          "text": "Демонтаж старого окна, монтаж по технологии с лентами и пеной, отделка и уборка. Обычно за один день.",
+          "image": "https://images.unsplash.com/photo-1786204697642-328c597b6f05"
+        },
+        {
+          "icon": "wrench",
+          "title": "Ремонт и регулировка",
+          "text": "Фурнитура, уплотнители, ручки, петли, стеклопакеты. Створки снова закрываются без сквозняков.",
+          "image": "https://images.unsplash.com/photo-1562259929-b4e1fd3aef09"
+        },
+        {
+          "icon": "door",
+          "title": "Двери и балконные блоки",
+          "text": "Балконные двери, входные двери ПВХ и подъёмно-сдвижные системы для террас и садов.",
+          "image": "https://images.unsplash.com/photo-1525570665650-76bb26af503d"
+        },
+        {
+          "icon": "balcony",
+          "title": "Балконы и лоджии",
+          "text": "Остекление балконов и лоджий в ПВХ или алюминии, утепление и внутренняя отделка.",
+          "image": "https://images.unsplash.com/photo-1776363116182-51694a04a1d5"
+        },
+        {
+          "icon": "net",
+          "title": "Комплектующие",
+          "text": "Москитные сетки, подоконники, откосы, рольставни, жалюзи и шторы — всё по размеру.",
+          "image": "https://images.unsplash.com/photo-1695928668952-c3c01a638e1d"
+        }
+      ]
+    },
+    "technology": {
+      "title": "Из чего состоит хорошее окно",
+      "intro": "Разница между тёплым окном и окном, которое потеет, — несколько миллиметров. Вот что внутри профиля, который я ставлю.",
+      "parts": [
+        {
+          "title": "Многокамерный профиль",
+          "text": "От 5 до 7 внутренних воздушных камер — каждая ещё один барьер для холода."
+        },
+        {
+          "title": "Стальной армирующий вкладыш",
+          "text": "Оцинкованная сталь внутри профиля: створка не ведёт ни со временем, ни от солнца."
+        },
+        {
+          "title": "Стеклопакет",
+          "text": "Два или три стекла с аргоном между ними. Защищает от холода, жары и уличного шума."
+        },
+        {
+          "title": "Энергосберегающее стекло",
+          "text": "Невидимое напыление возвращает тепло в комнату зимой и отражает его летом."
+        },
+        {
+          "title": "Уплотнители EPDM",
+          "text": "Два-три контура эластичной резины, которая не дубеет: ни сквозняков, ни воды."
+        },
+        {
+          "title": "Поворотно-откидная фурнитура",
+          "text": "Запирание по периметру с противовзломными цапфами, открывание и откидывание для проветривания."
+        }
+      ],
+      "glazing_title": "Какой стеклопакет выбрать",
+      "glazing_head": {
+        "name": "Стеклопакет",
+        "uw": "Теплоизоляция Ug",
+        "sound": "Шумоизоляция",
+        "use": "Для чего"
+      },
+      "glazing": [
+        {
+          "name": "Однокамерный 4-16-4, аргон",
+          "uw": "1,1 Вт/м²K",
+          "sound": "до 32 дБ",
+          "use": "Мягкий климат, внутренние комнаты"
+        },
+        {
+          "name": "Однокамерный энергосберегающий",
+          "uw": "1,0 Вт/м²K",
+          "sound": "до 34 дБ",
+          "use": "Самый частый выбор для квартиры"
+        },
+        {
+          "name": "Двухкамерный 4-12-4-12-4",
+          "uw": "0,6 Вт/м²K",
+          "sound": "до 38 дБ",
+          "use": "Пассивные дома, север Италии, горы"
+        },
+        {
+          "name": "Шумозащитный триплекс",
+          "uw": "1,0 Вт/м²K",
+          "sound": "до 44 дБ",
+          "use": "Оживлённые улицы, железная дорога, аэропорт"
+        }
+      ]
+    },
+    "products": {
+      "title": "Три линейки окон",
+      "intro": "Ориентировочные цены за стандартное окно 1200 × 1400 мм с установкой. Точную цену называю после замера.",
+      "badge": "Чаще выбирают",
+      "cta": "Запросить расчёт",
+      "items": [
+        {
+          "name": "Стандарт",
+          "price": "от 290 €",
+          "featured": false,
+          "features": [
+            {
+              "text": "Профиль 70 мм, 5 камер"
+            },
+            {
+              "text": "Стеклопакет с аргоном"
+            },
+            {
+              "text": "Uw ≈ 1,3 Вт/м²K"
+            },
+            {
+              "text": "Поворотно-откидная фурнитура"
+            }
+          ]
+        },
+        {
+          "name": "Комфорт",
+          "price": "от 390 €",
+          "featured": true,
+          "features": [
+            {
+              "text": "Профиль 76 мм, 6 камер"
+            },
+            {
+              "text": "Энергосберегающее стекло"
+            },
+            {
+              "text": "Uw ≈ 1,0 Вт/м²K"
+            },
+            {
+              "text": "Два контура уплотнения EPDM"
+            },
+            {
+              "text": "Можно оформить налоговый вычет"
+            }
+          ]
+        },
+        {
+          "name": "Премиум",
+          "price": "от 540 €",
+          "featured": false,
+          "features": [
+            {
+              "text": "Профиль 82 мм, 7 камер"
+            },
+            {
+              "text": "Двухкамерный стеклопакет, тёплая рамка"
+            },
+            {
+              "text": "Uw ≈ 0,8 Вт/м²K"
+            },
+            {
+              "text": "Противовзломная фурнитура RC2"
+            },
+            {
+              "text": "Ламинация под дерево и цвета RAL"
+            }
+          ]
+        }
+      ]
+    },
+    "purchase": {
+      "title": "Как можно купить",
+      "items": [
+        {
+          "icon": "box",
+          "title": "Только поставка",
+          "text": "Изготовлю окна по вашим размерам и привезу. Устанавливает кто угодно."
+        },
+        {
+          "icon": "tools",
+          "title": "Поставка и монтаж",
+          "text": "Замеряю, заказываю, снимаю старые окна и ставлю новые. Самый популярный вариант."
+        },
+        {
+          "icon": "key",
+          "title": "Под ключ",
+          "text": "Монтаж плюс отделка: подоконники, откосы, штукатурка и покраска. Комната готова сразу."
+        },
+        {
+          "icon": "card",
+          "title": "Оплата частями",
+          "text": "Аванс при подписании, остаток после работы. По запросу рассрочка и документы для вычета."
+        }
+      ]
+    },
+    "process": {
+      "title": "От звонка до готового окна",
+      "steps": [
+        {
+          "title": "Звонок или сообщение",
+          "text": "Рассказываете, что нужно, договариваемся о дне замера."
+        },
+        {
+          "title": "Выезд и замер",
+          "text": "Приезжаю, меряю проёмы, показываю образцы профилей и стекла. Бесплатно."
+        },
+        {
+          "title": "Письменная смета",
+          "text": "В течение 24 часов — окончательная цена без скрытых пунктов."
+        },
+        {
+          "title": "Изготовление",
+          "text": "Окна делают по размерам за 2–4 недели."
+        },
+        {
+          "title": "Монтаж за день",
+          "text": "Демонтаж, установка, герметизация, уборка. Оставляю дом в порядке."
+        },
+        {
+          "title": "Гарантия и сервис",
+          "text": "10 лет на монтаж и бесплатная регулировка после первой зимы."
+        }
+      ]
+    },
+    "install": {
+      "title": "Монтаж — это половина результата",
+      "text": "Даже лучшее окно теряет тепло, если его плохо поставить. Я монтирую по трёхслойной схеме: снаружи гидроизоляционная лента, в середине утепляющая пена, внутри пароизоляция. Шов остаётся сухим и тёплым годами.",
+      "image": "https://images.unsplash.com/photo-1786295866839-d17f879c65cd",
+      "points": [
+        {
+          "text": "Демонтаж старого окна без разрушения штукатурки"
+        },
+        {
+          "text": "Механическое крепление анкерами, а не только на пену"
+        },
+        {
+          "text": "Ленты от воды и ветра на всех трёх уровнях"
+        },
+        {
+          "text": "Проверка уровнем и открывания каждой створки"
+        },
+        {
+          "text": "Вывоз и утилизация старых окон"
+        }
+      ]
+    },
+    "repair": {
+      "title": "Диагностика и ремонт",
+      "intro": "Менять окно нужно не всегда. Часто хватает часа работы и одной запчасти. Приеду, проверю и честно скажу, что выгоднее.",
+      "image": "https://images.unsplash.com/photo-1676311396794-f14881e9daaa",
+      "symptoms_title": "Звоните, если окно…",
+      "symptoms": [
+        {
+          "text": "дует даже в закрытом положении"
+        },
+        {
+          "text": "туго закрывается или ручка поворачивается с трудом"
+        },
+        {
+          "text": "створка цепляет раму или провисла"
+        },
+        {
+          "text": "стеклопакет запотел изнутри"
+        },
+        {
+          "text": "по углам конденсат или плесень"
+        },
+        {
+          "text": "перестало откидываться на проветривание"
+        }
+      ],
+      "prices_title": "Ориентировочные цены",
+      "prices": [
+        {
+          "name": "Диагностика на дому",
+          "price": "бесплатно при ремонте"
+        },
+        {
+          "name": "Регулировка створки",
+          "price": "от 35 €"
+        },
+        {
+          "name": "Замена уплотнителя (створка)",
+          "price": "от 45 €"
+        },
+        {
+          "name": "Замена ручки",
+          "price": "от 25 €"
+        },
+        {
+          "name": "Замена фурнитуры",
+          "price": "от 90 €"
+        },
+        {
+          "name": "Замена стеклопакета",
+          "price": "от 120 €"
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Последние работы",
+      "items": [
+        {
+          "image": "https://images.unsplash.com/photo-1600776216872-b39b2a3dd995",
+          "caption": "Гостиная, двустворчатое окно"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1758998256408-ab2c9fbec19b",
+          "caption": "Раздвижная дверь в сад"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1630830842235-0aa8bf81d481",
+          "caption": "Белое окно на оштукатуренном фасаде"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1764837599929-100bd5890c57",
+          "caption": "Балконная дверь с видом на зелень"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1597776862145-cbac3a4085ab",
+          "caption": "Окно в классическом стиле"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1784280017604-c7eb21ee002c",
+          "caption": "Спальня, поворотно-откидная створка"
+        }
+      ]
+    },
+    "video": {
+      "title": "Как я работаю",
+      "text": "Полный монтаж — от демонтажа до финальной уборки.",
+      "play": "Смотреть видео"
+    },
+    "reviews": {
+      "title": "Отзывы клиентов",
+      "items": [
+        {
+          "name": "Джулия Р.",
+          "place": "Милан, Città Studi",
+          "rating": 5,
+          "text": "Шесть окон поменяли за полтора дня. Штукатурка целая, в доме чисто. Зимой отопление выключается раньше."
+        },
+        {
+          "name": "Марко Б.",
+          "place": "Сесто-Сан-Джованни",
+          "rating": 5,
+          "text": "Думал, придётся менять всё, а Иван отрегулировал створки и поменял уплотнители. Минимум затрат, сквозняков нет."
+        },
+        {
+          "name": "Олена К.",
+          "place": "Монца",
+          "rating": 5,
+          "text": "Понятная смета, без доплат. Помог и с документами на налоговый вычет."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Частые вопросы",
+      "items": [
+        {
+          "q": "Замер правда бесплатный?",
+          "a": "Да. Приезжаю, меряю и оставляю письменную смету. Подписывать ничего не нужно."
+        },
+        {
+          "q": "Сколько длится монтаж?",
+          "a": "Средняя квартира с 4–6 окнами — один-два дня. Одно окно — 2–3 часа."
+        },
+        {
+          "q": "Будет много грязи?",
+          "a": "Накрываю пол и мебель, снимаю окна без разрушения штукатурки и убираю после работы. Старые окна вывожу."
+        },
+        {
+          "q": "Можно получить налоговый вычет?",
+          "a": "При замене окон на изделия с нужной теплопередачей можно воспользоваться вычетами по действующему закону. Подготовлю нужные технические документы."
+        },
+        {
+          "q": "Ремонтируете окна других установщиков?",
+          "a": "Да, работаю с фурнитурой основных производителей. Если деталь сняли с производства, предложу совместимую замену."
+        },
+        {
+          "q": "Где вы работаете?",
+          "a": "Милан и провинция, Монца и Брианца. Крупные заказы — и дальше, спрашивайте."
+        }
+      ]
+    },
+    "contacts": {
+      "title": "Обсудим ваше окно",
+      "text": "Позвоните, напишите в WhatsApp или оставьте номер — перезвоню в тот же день.",
+      "hours_label": "Часы работы",
+      "hours": "Пн–Сб, 8:00–19:00",
+      "address_label": "Район работы",
+      "follow": "Я в соцсетях",
+      "map_button": "Показать карту",
+      "map_note": "Карта загружается из Google только после нажатия.",
+      "form": {
+        "title": "Заявка на замер",
+        "name": "Имя",
+        "phone": "Телефон",
+        "service": "Что нужно",
+        "services": [
+          {
+            "text": "Новые окна"
+          },
+          {
+            "text": "Ремонт или регулировка"
+          },
+          {
+            "text": "Дверь или балконный блок"
+          },
+          {
+            "text": "Балкон или лоджия"
+          },
+          {
+            "text": "Другое"
+          }
+        ],
+        "message": "Сообщение (необязательно)",
+        "submit": "Отправить заявку",
+        "sending": "Отправляю…",
+        "success": "Заявка отправлена. Перезвоню сегодня.",
+        "error": "Не удалось отправить. Позвоните или напишите в WhatsApp — отвечу сразу.",
+        "privacy": "Отправляя заявку, вы соглашаетесь, что данные используются только для связи с вами."
+      }
+    },
+    "footer": {
+      "text": "Продажа, установка и ремонт пластиковых окон.",
+      "rights": "Все права защищены."
+    }
+  },
+  "ro": {
+    "meta": {
+      "title": "Ferestre din PVC la Milano — vânzare, montare, reparație | Ivanov Finestre",
+      "description": "Ferestre termopan la comandă: măsurare gratuită, montaj corect, reparația și reglarea ferestrelor. Deviz scris în 24 de ore."
+    },
+    "nav": {
+      "services": "Servicii",
+      "technology": "Tehnologie",
+      "products": "Prețuri",
+      "install": "Montaj",
+      "repair": "Reparații",
+      "gallery": "Lucrări",
+      "reviews": "Recenzii",
+      "faq": "Întrebări",
+      "contacts": "Contacte",
+      "call": "Sună",
+      "menu": "Meniu",
+      "language": "Limba"
+    },
+    "hero": {
+      "title": "Ferestre care se închid bine. Timp de douăzeci de ani.",
+      "subtitle": "Vând, montez și repar ferestre termopan. Vin personal la măsurare, montez cu mâinile mele și răspund la telefon și după montaj.",
+      "cta_primary": "Programează măsurarea gratuită",
+      "cta_secondary": "Scrie pe WhatsApp",
+      "points": [
+        {
+          "text": "Deplasare și măsurare gratuite"
+        },
+        {
+          "text": "Deviz scris în 24 de ore"
+        },
+        {
+          "text": "Garanție 10 ani la montaj"
+        }
+      ],
+      "frame_width": "1 200 mm",
+      "frame_height": "1 400 mm"
+    },
+    "stats": [
+      {
+        "value": "12",
+        "label": "ani de lucru cu ferestre"
+      },
+      {
+        "value": "2 300+",
+        "label": "ferestre montate"
+      },
+      {
+        "value": "24 h",
+        "label": "pentru un deviz scris"
+      },
+      {
+        "value": "10",
+        "label": "ani garanție la montaj"
+      }
+    ],
+    "services": {
+      "title": "Ce fac",
+      "intro": "Tot ce ține de o fereastră, de la prima măsurare până la ultima reglare.",
+      "items": [
+        {
+          "icon": "window",
+          "title": "Vânzare ferestre PVC",
+          "text": "Profile cu 5–7 camere, geam dublu sau triplu, culori și folie imitație lemn. Direct de la producător.",
+          "image": "https://images.unsplash.com/photo-1630830842235-0aa8bf81d481"
+        },
+        {
+          "icon": "tools",
+          "title": "Montaj",
+          "text": "Demontarea ferestrei vechi, montaj corect cu benzi și spumă, finisare și curățenie. De obicei într-o zi.",
+          "image": "https://images.unsplash.com/photo-1786204697642-328c597b6f05"
+        },
+        {
+          "icon": "wrench",
+          "title": "Reparație și reglare",
+          "text": "Feronerie, garnituri, mânere, balamale, geamuri. Cercevelele se închid din nou fără curent.",
+          "image": "https://images.unsplash.com/photo-1562259929-b4e1fd3aef09"
+        },
+        {
+          "icon": "door",
+          "title": "Uși și uși de balcon",
+          "text": "Uși de balcon, uși de intrare din PVC și sisteme culisante pentru terase și grădini.",
+          "image": "https://images.unsplash.com/photo-1525570665650-76bb26af503d"
+        },
+        {
+          "icon": "balcony",
+          "title": "Balcoane și logii",
+          "text": "Închiderea balcoanelor și logiilor în PVC sau aluminiu, izolare și finisare interioară.",
+          "image": "https://images.unsplash.com/photo-1776363116182-51694a04a1d5"
+        },
+        {
+          "icon": "net",
+          "title": "Accesorii",
+          "text": "Plase de țânțari, glafuri, ancadramente, rulouri, jaluzele și perdele tehnice, la dimensiune.",
+          "image": "https://images.unsplash.com/photo-1695928668952-c3c01a638e1d"
+        }
+      ]
+    },
+    "technology": {
+      "title": "Din ce e făcută o fereastră bună",
+      "intro": "Diferența dintre o fereastră caldă și una care se aburește stă în câțiva milimetri. Iată ce e în profilul pe care îl montez.",
+      "parts": [
+        {
+          "title": "Profil multicameral",
+          "text": "Între 5 și 7 camere de aer interioare — fiecare e încă o barieră împotriva frigului."
+        },
+        {
+          "title": "Armătură din oțel",
+          "text": "Oțel zincat în interiorul profilului: cercevelele nu se deformează nici în timp, nici la soare."
+        },
+        {
+          "title": "Geam termopan",
+          "text": "Două sau trei foi de sticlă cu argon între ele. Izolează de frig, căldură și zgomotul străzii."
+        },
+        {
+          "title": "Sticlă Low-E",
+          "text": "Un strat invizibil reflectă căldura înapoi în cameră iarna și în afară vara."
+        },
+        {
+          "title": "Garnituri EPDM",
+          "text": "Două-trei rânduri de cauciuc elastic care nu se întărește: fără curent, fără apă."
+        },
+        {
+          "title": "Feronerie oscilo-batantă",
+          "text": "Închidere pe tot perimetrul cu bolțuri antiefracție, deschidere normală și basculantă pentru aerisire."
+        }
+      ],
+      "glazing_title": "Ce geam să alegi",
+      "glazing_head": {
+        "name": "Geam",
+        "uw": "Izolare termică Ug",
+        "sound": "Izolare fonică",
+        "use": "Potrivit pentru"
+      },
+      "glazing": [
+        {
+          "name": "Dublu 4-16-4 cu argon",
+          "uw": "1,1 W/m²K",
+          "sound": "până la 32 dB",
+          "use": "Climă blândă, camere interioare"
+        },
+        {
+          "name": "Dublu Low-E",
+          "uw": "1,0 W/m²K",
+          "sound": "până la 34 dB",
+          "use": "Cea mai frecventă alegere în apartament"
+        },
+        {
+          "name": "Triplu 4-12-4-12-4",
+          "uw": "0,6 W/m²K",
+          "sound": "până la 38 dB",
+          "use": "Case pasive, nordul Italiei, munte"
+        },
+        {
+          "name": "Sticlă fonoizolantă laminată",
+          "uw": "1,0 W/m²K",
+          "sound": "până la 44 dB",
+          "use": "Străzi aglomerate, cale ferată, aeroport"
+        }
+      ]
+    },
+    "products": {
+      "title": "Trei game de ferestre",
+      "intro": "Prețuri orientative pentru o fereastră standard 1200 × 1400 mm cu montaj. Prețul final îl spun după măsurare.",
+      "badge": "Cea mai aleasă",
+      "cta": "Cere un deviz",
+      "items": [
+        {
+          "name": "Standard",
+          "price": "de la 290 €",
+          "featured": false,
+          "features": [
+            {
+              "text": "Profil 70 mm, 5 camere"
+            },
+            {
+              "text": "Geam dublu cu argon"
+            },
+            {
+              "text": "Uw ≈ 1,3 W/m²K"
+            },
+            {
+              "text": "Feronerie oscilo-batantă"
+            }
+          ]
+        },
+        {
+          "name": "Comfort",
+          "price": "de la 390 €",
+          "featured": true,
+          "features": [
+            {
+              "text": "Profil 76 mm, 6 camere"
+            },
+            {
+              "text": "Sticlă Low-E"
+            },
+            {
+              "text": "Uw ≈ 1,0 W/m²K"
+            },
+            {
+              "text": "Garnitură dublă EPDM"
+            },
+            {
+              "text": "Eligibil pentru deducere fiscală"
+            }
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "de la 540 €",
+          "featured": false,
+          "features": [
+            {
+              "text": "Profil 82 mm, 7 camere"
+            },
+            {
+              "text": "Geam triplu, distanțier cald"
+            },
+            {
+              "text": "Uw ≈ 0,8 W/m²K"
+            },
+            {
+              "text": "Feronerie antiefracție RC2"
+            },
+            {
+              "text": "Imitație lemn și culori RAL"
+            }
+          ]
+        }
+      ]
+    },
+    "purchase": {
+      "title": "Cum poți cumpăra",
+      "items": [
+        {
+          "icon": "box",
+          "title": "Doar livrare",
+          "text": "Fac ferestrele pe măsura ta și le aduc. Le montează cine vrei tu."
+        },
+        {
+          "icon": "tools",
+          "title": "Livrare și montaj",
+          "text": "Măsor, comand, scot ferestrele vechi și le pun pe cele noi. Varianta cea mai cerută."
+        },
+        {
+          "icon": "key",
+          "title": "La cheie",
+          "text": "Montaj plus finisaje: glafuri, ancadramente, tencuială și vopsire. Camera e gata imediat."
+        },
+        {
+          "icon": "card",
+          "title": "Plată în rate",
+          "text": "Avans la semnare, restul la final. La cerere, finanțare în rate și acte pentru deducere."
+        }
+      ]
+    },
+    "process": {
+      "title": "De la primul apel la fereastra montată",
+      "steps": [
+        {
+          "title": "Apel sau mesaj",
+          "text": "Îmi spui ce îți trebuie și stabilim ziua măsurării."
+        },
+        {
+          "title": "Deplasare și măsurare",
+          "text": "Vin la tine, măsor golurile și îți arăt mostre de profile și sticlă. Gratuit."
+        },
+        {
+          "title": "Deviz scris",
+          "text": "În 24 de ore primești prețul final, fără costuri ascunse."
+        },
+        {
+          "title": "Producție",
+          "text": "Ferestrele se fac pe măsură în 2–4 săptămâni."
+        },
+        {
+          "title": "Montaj într-o zi",
+          "text": "Demontare, montaj, etanșare și curățenie. Las casa în ordine."
+        },
+        {
+          "title": "Garanție și service",
+          "text": "10 ani la montaj și o reglare gratuită după prima iarnă."
+        }
+      ]
+    },
+    "install": {
+      "title": "Montajul decide jumătate din rezultat",
+      "text": "Chiar și cea mai bună fereastră pierde căldură dacă e montată prost. Folosesc sistemul în trei straturi: bandă impermeabilă la exterior, spumă izolantă la mijloc și barieră de vapori la interior. Rostul rămâne uscat și cald ani la rând.",
+      "image": "https://images.unsplash.com/photo-1786295866839-d17f879c65cd",
+      "points": [
+        {
+          "text": "Demontarea ferestrei vechi fără a strica tencuiala"
+        },
+        {
+          "text": "Fixare mecanică cu dibluri, nu doar cu spumă"
+        },
+        {
+          "text": "Benzi de etanșare la apă și vânt pe toate trei straturile"
+        },
+        {
+          "text": "Verificare cu nivela și test de deschidere pentru fiecare cercevea"
+        },
+        {
+          "text": "Ridicarea și reciclarea ferestrelor vechi"
+        }
+      ]
+    },
+    "repair": {
+      "title": "Diagnostic și reparații",
+      "intro": "Nu întotdeauna trebuie schimbată fereastra. Deseori ajung o oră de lucru și o piesă. Vin, verific și îți spun cinstit ce merită.",
+      "image": "https://images.unsplash.com/photo-1676311396794-f14881e9daaa",
+      "symptoms_title": "Sună-mă dacă fereastra…",
+      "symptoms": [
+        {
+          "text": "trage curent chiar și închisă"
+        },
+        {
+          "text": "se închide greu sau mânerul e tare"
+        },
+        {
+          "text": "cerceveaua freacă de toc sau a coborât"
+        },
+        {
+          "text": "geamul s-a aburit între foi"
+        },
+        {
+          "text": "apare condens sau mucegai la colțuri"
+        },
+        {
+          "text": "nu se mai deschide basculant"
+        }
+      ],
+      "prices_title": "Prețuri orientative",
+      "prices": [
+        {
+          "name": "Diagnostic la domiciliu",
+          "price": "gratuit cu reparația"
+        },
+        {
+          "name": "Reglarea unei cercevele",
+          "price": "de la 35 €"
+        },
+        {
+          "name": "Înlocuire garnituri (cercevea)",
+          "price": "de la 45 €"
+        },
+        {
+          "name": "Înlocuire mâner",
+          "price": "de la 25 €"
+        },
+        {
+          "name": "Înlocuire feronerie",
+          "price": "de la 90 €"
+        },
+        {
+          "name": "Înlocuire geam termopan",
+          "price": "de la 120 €"
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Lucrări recente",
+      "items": [
+        {
+          "image": "https://images.unsplash.com/photo-1600776216872-b39b2a3dd995",
+          "caption": "Sufragerie, fereastră cu două canate"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1758998256408-ab2c9fbec19b",
+          "caption": "Ușă glisantă spre grădină"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1630830842235-0aa8bf81d481",
+          "caption": "Fereastră albă pe fațadă tencuită"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1764837599929-100bd5890c57",
+          "caption": "Ușă de balcon cu vedere spre verdeață"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1597776862145-cbac3a4085ab",
+          "caption": "Fereastră în stil clasic"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1784280017604-c7eb21ee002c",
+          "caption": "Dormitor, cercevea oscilo-batantă"
+        }
+      ]
+    },
+    "video": {
+      "title": "Cum lucrez",
+      "text": "Un montaj complet, de la demontare la curățenia finală.",
+      "play": "Pornește video"
+    },
+    "reviews": {
+      "title": "Ce spun clienții",
+      "items": [
+        {
+          "name": "Giulia R.",
+          "place": "Milano, Città Studi",
+          "rating": 5,
+          "text": "Șase ferestre schimbate într-o zi și jumătate. Tencuiala intactă, casa curată. Iarna încălzirea se oprește mai repede."
+        },
+        {
+          "name": "Marco B.",
+          "place": "Sesto San Giovanni",
+          "rating": 5,
+          "text": "Credeam că trebuie să schimb tot, dar Ivan a reglat cercevelele și a schimbat garniturile. Cost minim, fără curent."
+        },
+        {
+          "name": "Olena K.",
+          "place": "Monza",
+          "rating": 5,
+          "text": "Deviz clar, fără costuri în plus. M-a ajutat și cu actele pentru deducerea fiscală."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Întrebări frecvente",
+      "items": [
+        {
+          "q": "Măsurarea e chiar gratuită?",
+          "a": "Da. Vin, măsor și îți las un deviz scris. Nu trebuie să semnezi nimic."
+        },
+        {
+          "q": "Cât durează montajul?",
+          "a": "Un apartament mediu cu 4–6 ferestre — una sau două zile. O singură fereastră — 2–3 ore."
+        },
+        {
+          "q": "Se face multă mizerie?",
+          "a": "Acopăr podeaua și mobila, demontez fără a strica tencuiala și fac curat la final. Iau ferestrele vechi cu mine."
+        },
+        {
+          "q": "Pot beneficia de deducere fiscală?",
+          "a": "La înlocuirea ferestrelor cu produse care respectă cerințele termice poți accesa deducerile prevăzute de legea în vigoare. Îți pregătesc documentele tehnice necesare."
+        },
+        {
+          "q": "Reparați ferestre montate de alții?",
+          "a": "Da, lucrez cu feroneria marilor producători. Dacă o piesă nu se mai produce, propun o alternativă compatibilă."
+        },
+        {
+          "q": "În ce zone lucrați?",
+          "a": "Milano și provincia, Monza și Brianza. Pentru lucrări mari și mai departe — întreabă."
+        }
+      ]
+    },
+    "contacts": {
+      "title": "Hai să vorbim despre fereastra ta",
+      "text": "Sună, scrie pe WhatsApp sau lasă numărul — te sun înapoi în aceeași zi.",
+      "hours_label": "Program",
+      "hours": "Lun–Sâm, 8:00–19:00",
+      "address_label": "Zona de lucru",
+      "follow": "Urmărește-mă",
+      "map_button": "Arată harta",
+      "map_note": "Harta se încarcă de la Google doar după clic.",
+      "form": {
+        "title": "Cerere de măsurare",
+        "name": "Nume",
+        "phone": "Telefon",
+        "service": "Ce îți trebuie",
+        "services": [
+          {
+            "text": "Ferestre noi"
+          },
+          {
+            "text": "Reparație sau reglare"
+          },
+          {
+            "text": "Ușă sau ușă de balcon"
+          },
+          {
+            "text": "Balcon sau logie"
+          },
+          {
+            "text": "Altceva"
+          }
+        ],
+        "message": "Mesaj (opțional)",
+        "submit": "Trimite cererea",
+        "sending": "Se trimite…",
+        "success": "Cererea a fost trimisă. Te sun azi.",
+        "error": "Nu s-a putut trimite. Sună sau scrie pe WhatsApp — răspund imediat.",
+        "privacy": "Trimițând, ești de acord ca datele să fie folosite doar pentru a te contacta."
+      }
+    },
+    "footer": {
+      "text": "Vânzare, montaj și reparații ferestre din PVC.",
+      "rights": "Toate drepturile rezervate."
+    }
+  }
+}
