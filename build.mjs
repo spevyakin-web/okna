@@ -435,6 +435,13 @@ for (const L of LOCALES) {
   await fs.writeFile(path.join(dir, 'index.html'), page(L, c, parts, ctx));
 }
 
+// the default language also answers at its own folder (e.g. /ru/) by redirecting to "/"
+{
+  const def = ALL_LOCALES.find(l => l.code === DEFAULT_LANG);
+  await fs.mkdir(path.join(OUT, def.dir), { recursive: true });
+  await fs.writeFile(path.join(OUT, def.dir, 'index.html'), `<!doctype html><meta charset="utf-8"><title>${def.name}</title><link rel="canonical" href="${SITE}${BASE}"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0;url=${BASE}"><a href="${BASE}">${def.name}</a>`);
+}
+
 // favicon (window mark)
 const p = settings.theme?.primary || '#1F5F8B';
 await fs.writeFile(path.join(OUT, 'favicon.svg'), `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect x="5" y="3" width="22" height="26" rx="2" fill="#fff" stroke="${p}" stroke-width="3"/><path d="M16 3v26M5 16h22" stroke="${p}" stroke-width="3"/></svg>`);
