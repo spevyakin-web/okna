@@ -17,14 +17,14 @@ public_folder: /uploads
 
 i18n:
   structure: single_file
-  locales: [it, en, uk, ru, ro]
-  default_locale: it
+  locales: [ru, it, en, uk, ro]
+  default_locale: ru
 
 collections:
   # ------------------------------------------------------------ ТЕКСТЫ (5 языков)
   - name: pages
     label: "Тексты сайта"
-    description: "Все тексты на 5 языках: it — итальянский (главный), en, uk, ru, ro — молдавский. Переключайте язык вверху редактора."
+    description: "Все тексты на 5 языках: ru — русский (основной для правок), it — итальянский, en — английский, uk — украинский, ro — молдавский. Если в каком-то языке поле пустое, на сайте покажется русский текст."
     i18n: true
     editor: { preview: false }
     files:
@@ -360,6 +360,21 @@ collections:
         file: content/settings.json
         format: json
         fields:
+          - label: "Язык сайта"
+            name: site
+            widget: object
+            fields:
+              - label: "Какой язык открывается первым (по адресу сайта без /ru/, /it/ и т. д.)"
+                name: default_lang
+                widget: select
+                default: ru
+                options:
+                  - { label: "Русский", value: ru }
+                  - { label: "Italiano", value: it }
+                  - { label: "English", value: en }
+                  - { label: "Українська", value: uk }
+                  - { label: "Moldovenească", value: ro }
+
           - label: "Контакты и компания"
             name: business
             widget: object

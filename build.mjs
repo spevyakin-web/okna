@@ -22,12 +22,18 @@ const SITE = (process.env.SITE_URL || settings.seo?.site_url || '').replace(/\/$
 const REPO = process.env.GITHUB_REPOSITORY || 'spevyakin-web/okna';
 const BRANCH = process.env.CF_PAGES_BRANCH || process.env.GITHUB_REF_NAME || 'main';
 
-const LOCALES = [
-  { code: 'it', dir: '', html: 'it', name: 'Italiano', short: 'IT' },
+const ALL_LOCALES = [
+  { code: 'ru', dir: 'ru', html: 'ru', name: 'Русский', short: 'RU' },
+  { code: 'it', dir: 'it', html: 'it', name: 'Italiano', short: 'IT' },
   { code: 'en', dir: 'en', html: 'en', name: 'English', short: 'EN' },
   { code: 'uk', dir: 'uk', html: 'uk', name: 'Українська', short: 'UA' },
-  { code: 'ru', dir: 'ru', html: 'ru', name: 'Русский', short: 'RU' },
   { code: 'ro', dir: 'md', html: 'ro-MD', name: 'Moldovenească', short: 'MD' }
+];
+// The language chosen in the admin ("Настройки → Язык сайта") opens at "/"; the others live in their folders.
+const DEFAULT_LANG = ALL_LOCALES.some(l => l.code === settings.site?.default_lang) ? settings.site.default_lang : 'ru';
+const LOCALES = [
+  ...ALL_LOCALES.filter(l => l.code === DEFAULT_LANG).map(l => ({ ...l, dir: '' })),
+  ...ALL_LOCALES.filter(l => l.code !== DEFAULT_LANG)
 ];
 
 const FONTS = {
@@ -421,7 +427,8 @@ await fs.writeFile(path.join(OUT, js), jsSrc);
 const ctx = { fonts, css, js, theme: themeVars(settings.theme || {}, fonts) };
 
 for (const L of LOCALES) {
-  const c = merge(home.it, home[L.code] || {});
+  // missing texts fall back to Russian (the owner's working language), then Italian
+  const c = merge(merge(home.it, home.ru || {}), home[L.code] || {});
   const parts = render(L, c);
   const dir = path.join(OUT, L.dir);
   await fs.mkdir(dir, { recursive: true });
@@ -440,4 +447,4 @@ if (SITE) {
 }
 await fs.writeFile(path.join(OUT, '.nojekyll'), '');
 await buildAdmin();
-console.log(`Built ${LOCALES.length} pages → dist/ (base ${BASE}, repo ${REPO})`);
+console.log(`Default language: ${DEFAULT_LANG}. Built ${LOCALES.length} pages → dist/ (base ${BASE}, repo ${REPO})`);
