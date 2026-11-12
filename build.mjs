@@ -401,7 +401,9 @@ async function buildAdmin() {
   await fs.cp(cmsDir, path.join(dest, 'sveltia'), { recursive: true, filter: s => !s.endsWith('.map') });
   await fs.copyFile(path.join(ROOT, 'admin/index.html'), path.join(dest, 'index.html'));
   let yml = await fs.readFile(path.join(ROOT, 'admin/config.yml'), 'utf8');
-  yml = yml.replaceAll('__REPO__', REPO).replaceAll('__BRANCH__', BRANCH).replaceAll('__SITE__', SITE ? SITE + BASE : BASE);
+  yml = yml.replaceAll('__REPO__', REPO).replaceAll('__BRANCH__', BRANCH);
+  // site_url must be absolute; without a known address drop it (the CMS then uses the current origin)
+  yml = SITE ? yml.replaceAll('__SITE__', SITE + BASE) : yml.split('\n').filter(l => !l.includes('__SITE__')).join('\n');
   await fs.writeFile(path.join(dest, 'config.yml'), yml);
 }
 
