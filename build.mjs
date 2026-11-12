@@ -19,7 +19,7 @@ let BASE = process.env.BASE_PATH || '/';
 if (!BASE.startsWith('/')) BASE = '/' + BASE;
 if (!BASE.endsWith('/')) BASE += '/';
 const SITE = (process.env.SITE_URL || settings.seo?.site_url || '').replace(/\/$/, '');
-const REPO = process.env.GITHUB_REPOSITORY || 'spevyakin-web/OKNA';
+const REPO = process.env.GITHUB_REPOSITORY || 'spevyakin-web/okna';
 const BRANCH = process.env.GITHUB_REF_NAME || 'main';
 
 const LOCALES = [

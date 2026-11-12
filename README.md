@@ -30,10 +30,10 @@
 
 ## Первый вход в админку
 
-1. Откройте `https://<ваш-логин>.github.io/OKNA/admin/`.
+1. Откройте `https://<ваш-логин>.github.io/okna/admin/`.
 2. Нажмите **Sign In Using Access Token**.
 3. Создайте токен: GitHub → Settings → Developer settings → Personal access tokens → **Fine-grained tokens** → Generate new token.
-   - Repository access: *Only select repositories* → `OKNA`
+   - Repository access: *Only select repositories* → `okna`
    - Permissions → Repository: **Contents: Read and write**
 4. Вставьте токен в админку. Он хранится только в вашем браузере.
 
